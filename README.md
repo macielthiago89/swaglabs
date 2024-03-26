@@ -321,31 +321,45 @@ Se mesmo após a instalação do Python o programa não reconheceu as variáveis
 
 <summary> Clique para expandir o menu Realizando seu primeiro commit </summary>
 
-7.1 No arquivo criado, realize alguma edição.
+7.1 No terminal clique em git bash e digite o codigo abaixo:
+
+```
+echo "# (Nome do repositorio)" >> README.md
+git init
+git add README.md
+git commit -m "Nome do primeiro commit"
+git branch -M main
+git remote add origin (Link do repositorio completo com .git no final)
+git push -u origin main
+
+```
+
+7.2 No arquivo criado, realize alguma edição.
 
 ![22](https://github.com/macielthiago89/automacaoorange/assets/92893341/39bc365e-80e0-45f0-948c-bf7156e45832)
 
-7.2 Clique em "Source File". Insira o título do commit no campo "Message". Clique em "Commit".
+7.3 Clique em "Source File". Insira o título do commit no campo "Message". Clique em "Commit".
 
 ![23](https://github.com/macielthiago89/automacaoorange/assets/92893341/5c041230-3e27-4779-b18d-f1c64c56c1de)
 
-7.3 O VS Code deve exibir uma mensagem informando que não tem nenhuma edição preparada e pergunta se você quer realizar a mudança, clique em "Always".
+7.4 O VS Code deve exibir uma mensagem informando que não tem nenhuma edição preparada e pergunta se você quer realizar a mudança, clique em "Always".
 
 ![24](https://github.com/macielthiago89/automacaoorange/assets/92893341/fa5e7f7f-2d9d-41a9-bb15-b11e53fcde76)
 
-7.4 Clique em "Sync Changes".
+7.5 Clique em "Sync Changes".
 
 ![25](https://github.com/macielthiago89/automacaoorange/assets/92893341/ea4bdb0f-8759-4396-8e26-da981f9ec88b)
 
-7.5 O VS Code deve exibir a mensagem informando para qual branch será feito o commit.
+7.6 O VS Code deve exibir a mensagem informando para qual branch será feito o commit.
 
 ![26](https://github.com/macielthiago89/automacaoorange/assets/92893341/e3c79e6b-e95b-471a-afaa-d03286fc5425)
 
-7.6 Atualize o seu GitHub e verifique a edição realizada.
+7.7 Atualize o seu GitHub e verifique a edição realizada.
 
 ![27](https://github.com/macielthiago89/automacaoorange/assets/92893341/673e39d3-8444-4a0b-82c5-210253259d3b)
 
 </details>
+
 
 # 8.Realizando seu primeiro git clone
 

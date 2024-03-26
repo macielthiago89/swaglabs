@@ -392,3 +392,4 @@ Autor
 | [<img loading="lazy" src="https://github.com/macielthiago89/automacaoorange/assets/92893341/f7c12873-eed6-485f-905d-2f845e46a950" width=115><br><sub>Thiago Andrade</sub>](https://github.com/macielthiago89/) |
 | :---: | 
 
+# sawglabs

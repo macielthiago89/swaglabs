@@ -137,10 +137,9 @@
 
 4.4 Abra o VS Code.
 
-4.5 Clique em "Extensions" e instale as extensões necessárias, como "Robot Framework Language Server", "RobotCode – Robot Framework Support", "Material Icon Theme", e "Dracula Official".
+4.5 Clique em "Extensions" e instale as extensões necessárias, como "Robot Framework Language Server", "Material Icon Theme", e "Dracula Official".
 
 ![23](https://github.com/macielthiago89/automacaoorange/assets/92893341/fae63138-7c7b-477d-b066-78ab8522250b)
-![24](https://github.com/macielthiago89/automacaoorange/assets/92893341/49ae77a3-ca6c-43b6-a4b3-a8669406fd4c)
 ![25](https://github.com/macielthiago89/automacaoorange/assets/92893341/9b8491f8-761e-4613-aaa6-637fa496842a)
 ![26](https://github.com/macielthiago89/automacaoorange/assets/92893341/40586cdc-2235-41c1-aa7b-c98ab340cedc)
 

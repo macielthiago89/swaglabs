@@ -6,7 +6,7 @@
 
 <h4 align="center">
     
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/macielthiago89/automacaoorange/blob/orange/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/macielthiago89/swaglabs/blob/main/LICENSE)
 </h4>
 
 # Guia de Instalação e Configuração

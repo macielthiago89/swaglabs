@@ -15,7 +15,7 @@ Este projeto se concentra na automação do site Swag Labs ([Swag Labs](www.sauc
 
 ## Automação com Robot Framework
 
-O Robot Framework é uma ferramenta de automação de código aberto amplamente utilizada para escrever testes automatizados. Ele oferece uma sintaxe simples e legível que facilita a criação e manutenção de testes automatizados. Neste projeto, utilizamos o Robot Framework para escrever casos de teste que cobrem diversas funcionalidades do OrangeHRM. A flexibilidade e extensibilidade do Robot Framework permitem uma integração perfeita com o OrangeHRM, garantindo uma cobertura abrangente dos testes, através de keywords
+O Robot Framework é uma ferramenta de automação de código aberto amplamente utilizada para escrever testes automatizados. Ele oferece uma sintaxe simples e legível que facilita a criação e manutenção de testes automatizados. Neste projeto, utilizamos o Robot Framework para escrever casos de teste que cobrem diversas funcionalidades do Swag Labs. A flexibilidade e extensibilidade do Robot Framework permitem uma integração perfeita com o Swag Labs, garantindo uma cobertura abrangente dos testes, através de keywords
 
 ## Execução dos Testes com VS Code
 
@@ -25,7 +25,7 @@ Para realizar a execução dos testes automatizados, utilizamos o Visual Studio 
 
 O GitHub é uma plataforma de hospedagem de código-fonte baseada em Git, que oferece controle de versão distribuído e recursos colaborativos para desenvolvedores. Utilizamos o GitHub para salvar o código-fonte do projeto e gerenciar as atualizações de forma eficiente. Além disso, o GitHub oferece recursos como pull requests e issues, que facilitam a revisão de código e a colaboração entre membros da equipe de automação de testes.
 
-Este repositório contém os scripts de automação, casos de teste e recursos necessários para a execução e manutenção dos testes automatizados no OrangeHRM. Contribuições são bem-vindas!
+Este repositório contém os scripts de automação, casos de teste e recursos necessários para a execução e manutenção dos testes automatizados no Swag Labs. Contribuições são bem-vindas!
 
 # Guia de Instalação e Configuração
 

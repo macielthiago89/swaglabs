@@ -49,23 +49,23 @@ Este repositório contém os scripts de automação, casos de teste e recursos n
 
 1.1 Acesse o site [python.org/downloads](https://www.python.org/downloads/) ou pesquise no Google por "Python" e clique em "Downloads".
 
-![1](https://github.com/macielthiago89/automacaoorange/assets/92893341/508541be-06d6-4de0-8d59-f45993159f9e)
+![1](https://github.com/macielthiago89/swaglabs/assets/92893341/542d3663-82e2-46c1-b8ff-1ed155866685)
 
 1.2 Clique em "Download Python" (Versão atual).
 
-![2](https://github.com/macielthiago89/automacaoorange/assets/92893341/7df2e25a-8f25-4d6e-8d1b-6044672ee838)
+![2](https://github.com/macielthiago89/swaglabs/assets/92893341/96fafc04-f1ce-441c-a6c0-648961087a41)
 
 1.3 Marque os checkboxes "Use admin privileges when installing py.exe" e "Add python.exe to PATH". Após marcar os checkboxes, clique em "Install Now" e depois em "Next".
 
-![3](https://github.com/macielthiago89/automacaoorange/assets/92893341/ac763428-eace-4e4d-b4b4-ccab8a8add65)
+![3](https://github.com/macielthiago89/swaglabs/assets/92893341/ba2913cb-522e-45c2-abd3-7a6c9afa4d23)
 
 1.4 Clique em "Close" para fechar o instalador do Python.
 
-![4](https://github.com/macielthiago89/automacaoorange/assets/92893341/40f96095-7501-4713-87cc-a3054c2425dc)
+![4](https://github.com/macielthiago89/swaglabs/assets/92893341/1a5c9d87-9c1f-4fd6-9d08-7b18132f1825)
 
 1.5 Abra o CMD do Windows e digite `python --version`. A versão exibida no CMD deve ser a mesma que você baixou no passo 02.
 
-![5](https://github.com/macielthiago89/automacaoorange/assets/92893341/b9e6ff17-7801-4e0a-8ef9-913f8a6c2903)
+![5](https://github.com/macielthiago89/swaglabs/assets/92893341/b84b230a-891d-4b2c-9d6d-0735c732225d)
 
 1.6 Clique em "Close" para fechar o instalador do Python.
 
@@ -79,33 +79,35 @@ Este repositório contém os scripts de automação, casos de teste e recursos n
 
 2.1 No navegador do Chrome, clique em "⁝" para exibir as opções do Chrome e depois em "Ajuda" > "Sobre o Google Chrome".
 
-![6](https://github.com/macielthiago89/automacaoorange/assets/92893341/23788b8a-e7db-4a6d-a437-1bfb7bc408ce)
+![6](https://github.com/macielthiago89/swaglabs/assets/92893341/99d65f59-6c79-4ad6-9336-37c5c28715e1)
 
 2.2 Verifique qual a última versão do Chrome. Caso esteja desatualizado, atualize-o.
 
-![7](https://github.com/macielthiago89/automacaoorange/assets/92893341/c3c53e37-3a68-4a13-b379-f2beec068034)
+![7](https://github.com/macielthiago89/swaglabs/assets/92893341/7a62ebf3-196e-423b-b95e-b22284523a87)
 
 2.3 Acesse o site [chromedriver.chromium.org/downloads](https://chromedriver.chromium.org/downloads) e baixe a versão compatível com seu Chrome.
 
-![8](https://github.com/macielthiago89/automacaoorange/assets/92893341/ad78655f-b3e7-463e-8a87-ed671399fb45)
+![8](https://github.com/macielthiago89/swaglabs/assets/92893341/5f2f3f39-fc86-4b19-ace0-fc131d76af90)
 
 2.4 Clique em "STABLE", esta é a versão estável do Chrome Driver.
 
-![9](https://github.com/macielthiago89/automacaoorange/assets/92893341/4ef120cd-a501-4262-86d4-0b349085b361)
+![9](https://github.com/macielthiago89/swaglabs/assets/92893341/6443dfeb-b682-4e3d-b56e-de2df1713504)
 
-![10](https://github.com/macielthiago89/automacaoorange/assets/92893341/539ce54a-1ed7-4a21-82d8-7022780bd15e)
+![10](https://github.com/macielthiago89/swaglabs/assets/92893341/4baa4052-fb57-45a1-a8ce-70484560c827)
 
 2.5 Abra o arquivo baixado no seu navegador.
 
-![12](https://github.com/macielthiago89/automacaoorange/assets/92893341/70f3377c-c752-4506-b4ee-85bcd03bc6d7)
+![11](https://github.com/macielthiago89/swaglabs/assets/92893341/ab6ea580-e15a-43b3-8b94-d6cd2f49833f)
 
 2.6 Navegue até onde o Python foi instalado. Caso não lembre onde foi instalado, clique com o botão direito sobre o atalho do Python, abra o local do arquivo e a pasta "Scripts".
 
-![13](https://github.com/macielthiago89/automacaoorange/assets/92893341/7e8d73fc-10b6-4ff3-9b15-58a247ac9b88)
+![13](https://github.com/macielthiago89/swaglabs/assets/92893341/d1945088-8ec9-45db-9449-67b66ae09567)
 
 2.7 Cole o arquivo `chromedriver.exe`.
 
-![14](https://github.com/macielthiago89/automacaoorange/assets/92893341/7f0cfad2-ba8d-4618-b26a-d43bce0a5ab3)
+![12](https://github.com/macielthiago89/swaglabs/assets/92893341/5ccea767-4b0b-41ae-9a3c-09c9b9cb08a7)
+
+![14](https://github.com/macielthiago89/swaglabs/assets/92893341/5b93744c-c7f0-4c3b-a9bb-3b3dc47a66e8)
 
 </details>
 
@@ -117,19 +119,19 @@ Este repositório contém os scripts de automação, casos de teste e recursos n
 
 3.1 Abra o CMD do Windows e digite `pip install robotframework`.
 
-![15](https://github.com/macielthiago89/automacaoorange/assets/92893341/58015132-2f18-455a-9543-cfcdbba62518)
+![15](https://github.com/macielthiago89/swaglabs/assets/92893341/ffd37d8e-ea61-4420-b8a8-733b41776157)
 
 3.2 Abra o CMD do Windows e digite `pip install robotframework-seleniumlibrary`.
 
-![16](https://github.com/macielthiago89/automacaoorange/assets/92893341/03df1c97-1070-4cdb-b965-9441ea4173e3)
+![16](https://github.com/macielthiago89/swaglabs/assets/92893341/c9cb3c13-1185-4070-89d1-47c5a952274e)
 
 3.3 Abra o CMD do Windows e digite `pip install setuptools`.
 
-![18](https://github.com/macielthiago89/automacaoorange/assets/92893341/6e0e0430-5d0a-4d95-be7e-50af1118eb15)
+![18](https://github.com/macielthiago89/swaglabs/assets/92893341/f0884320-e0fd-4e8d-b1c6-cfb47200d7b4)
 
 3.4 Abra o CMD do Windows e digite `pip install robotframework-faker`.
 
-![19](https://github.com/macielthiago89/automacaoorange/assets/92893341/c61faa53-cd3e-48e5-bf7d-6b613aaec260)
+![19](https://github.com/macielthiago89/swaglabs/assets/92893341/b8c7239d-b5de-4b20-99b1-fae179efa91d)
 
 </details>
 
@@ -141,15 +143,15 @@ Este repositório contém os scripts de automação, casos de teste e recursos n
 
 4.1 Acesse o site [code.visualstudio.com/download](https://code.visualstudio.com/download) ou pesquise no Google por "VS Code" e clique em "Download".
 
-![20](https://github.com/macielthiago89/automacaoorange/assets/92893341/5a99c4eb-5ab0-4c4d-bca2-9cf2dbe1a7cf)
+![20](https://github.com/macielthiago89/swaglabs/assets/92893341/19b5e435-2efd-4441-8e2b-deb1190f3c7f)
 
 4.2 Selecione o Visual Studio Code de acordo com seu sistema operacional.
 
-![21](https://github.com/macielthiago89/automacaoorange/assets/92893341/71b83b05-8218-456d-9b25-06c01de8143e)
+![21](https://github.com/macielthiago89/swaglabs/assets/92893341/9180ebec-3e00-46fd-a1d3-19c5b11337e4)
 
 4.3 Aceite o acordo e siga as instruções para finalizar a instalação.
 
-![22](https://github.com/macielthiago89/automacaoorange/assets/92893341/b1738ddb-43e9-4900-a9ae-bce2023da399)
+![22](https://github.com/macielthiago89/swaglabs/assets/92893341/0bbd1ffe-f125-4a20-a02f-9340c9aaaee8)
 
 # Configurando o VS Code
 
@@ -157,13 +159,15 @@ Este repositório contém os scripts de automação, casos de teste e recursos n
 
 4.5 Clique em "Extensions" e instale as extensões necessárias, como "Robot Framework Language Server", "Material Icon Theme", e "Dracula Official".
 
-![23](https://github.com/macielthiago89/automacaoorange/assets/92893341/fae63138-7c7b-477d-b066-78ab8522250b)
-![25](https://github.com/macielthiago89/automacaoorange/assets/92893341/9b8491f8-761e-4613-aaa6-637fa496842a)
-![26](https://github.com/macielthiago89/automacaoorange/assets/92893341/40586cdc-2235-41c1-aa7b-c98ab340cedc)
+![23](https://github.com/macielthiago89/swaglabs/assets/92893341/ca7fc48c-ef3a-4ed6-b46d-26bffb9a176c)
+
+![25](https://github.com/macielthiago89/swaglabs/assets/92893341/fa67a4b9-f194-4540-8303-1033ea962b43)
+
+![26](https://github.com/macielthiago89/swaglabs/assets/92893341/d01a2a30-be0a-469d-b702-7ea8763c5125)
 
 4.6 Crie um arquivo `.code-workspace` para configurar o ambiente de trabalho.
 
-![27](https://github.com/macielthiago89/automacaoorange/assets/92893341/176ff886-e5f9-4058-b4a4-ef815c9b0395)
+![27](https://github.com/macielthiago89/swaglabs/assets/92893341/ee8a553b-c7b5-4816-bffb-e2fb32b30aba)
 
 4.7 Cole o seguinte código no arquivo:
 
@@ -190,17 +194,18 @@ Este repositório contém os scripts de automação, casos de teste e recursos n
     }
 }
 ```
-![28](https://github.com/macielthiago89/automacaoorange/assets/92893341/cddb9f9f-c3b4-4cb3-8828-0c165d69c2c3)
+
+![28](https://github.com/macielthiago89/swaglabs/assets/92893341/2aed22af-bcad-45b8-ac84-ea18513874d6)
 
 Após salvar o arquivo, crie um arquivo com extensão .robot e digite *** Sistema para exibir as opções de sessões do Robot.
 
 Crie outro arquivo com extensão .robot, digite *** Settings *** e importe a library Selenium ou qualquer outra. Em seguida, digite *** Keywords ***.
 
-![29](https://github.com/macielthiago89/automacaoorange/assets/92893341/7991ce7e-d73a-4b23-971b-396a0005419e)
+![29](https://github.com/macielthiago89/swaglabs/assets/92893341/d51ae1d4-fdb7-47ef-b969-b1c6c2b06724)
 
 Ao digitar a keyword, o VS Code já exibe a opção para selecionar.
 
-![30](https://github.com/macielthiago89/automacaoorange/assets/92893341/130fcf59-c5c4-4f92-af34-157120c5e455)
+![30](https://github.com/macielthiago89/swaglabs/assets/92893341/406ba833-73a0-4ea2-a992-0e49ac33126f)
 
 </details>
 
@@ -228,7 +233,7 @@ Se mesmo após a instalação do Python o programa não reconheceu as variáveis
 
    * 5.8. Coloque as duas variáveis em primeiro e salve.
 
-![31](https://github.com/macielthiago89/automacaoorange/assets/92893341/38f3e179-57d7-48fd-a352-8bb91008febb)
+![31](https://github.com/macielthiago89/swaglabs/assets/92893341/8ee4ed3a-92ff-4dbd-b5a4-908bceb25c74)
 
 </details>
 
@@ -240,15 +245,15 @@ Se mesmo após a instalação do Python o programa não reconheceu as variáveis
 
 6.1 Acesse o link [Git para Windows](https://git-scm.com/download/win) ou pesquise no Google por "GIT" e clique em "Download for Windows".
 
-![1](https://github.com/macielthiago89/automacaoorange/assets/92893341/a38585d5-c3a4-49e8-90eb-85ad29fca1b0)
+![1](https://github.com/macielthiago89/swaglabs/assets/92893341/df3a7b51-64e5-49c3-8d9a-764b778f1aa2)
 
 6.2 Selecione a arquitetura de acordo com o seu sistema.
 
-![2](https://github.com/macielthiago89/automacaoorange/assets/92893341/40eea418-abfe-43ae-8f70-ad80e8570472)
+![2](https://github.com/macielthiago89/swaglabs/assets/92893341/4f148730-3622-49eb-877e-3cbb5a77f6a3)
 
 6.3 Abra o programa do Git e clique sempre em "NEXT".
 
-![3](https://github.com/macielthiago89/automacaoorange/assets/92893341/2bc3ff91-672a-4c4c-a5fb-7811a2e94f95)
+![3](https://github.com/macielthiago89/swaglabs/assets/92893341/a29ccbca-e5c3-4fba-aad9-4ee6a9985b90)
 
 ## Configurando o GitHub
 
@@ -256,19 +261,19 @@ Se mesmo após a instalação do Python o programa não reconheceu as variáveis
 
 6.5 Clique em "View" e selecione a opção "Terminal".
 
-![4](https://github.com/macielthiago89/automacaoorange/assets/92893341/0804688c-6ad6-40c5-91ca-a24dbb80c876)
+![4](https://github.com/macielthiago89/swaglabs/assets/92893341/397e9826-fa64-4efb-975e-40cdc47b8607)
 
 6.6 No terminal, clique em "Git Bash".
 
-![5](https://github.com/macielthiago89/automacaoorange/assets/92893341/d84d2627-71b3-48bb-877d-f536c5e56a78)
+![5](https://github.com/macielthiago89/swaglabs/assets/92893341/3b7959b0-6a94-4f0a-b39f-06bda8604f54)
 
 6.7 No terminal, digite `git config --global user.name <Seu nome de usuário do GitHub>`.
 
-![6](https://github.com/macielthiago89/automacaoorange/assets/92893341/8ce75e44-e0ab-4788-b565-7be8839d9c88)
+![6](https://github.com/macielthiago89/swaglabs/assets/92893341/6b34ef25-6e32-43c9-b81c-ce2f91476d27)
 
 6.8 No terminal, digite `git config --global user.email <Seu e-mail do GitHub>`.
 
-![7](https://github.com/macielthiago89/automacaoorange/assets/92893341/bf7463fd-f71a-4e0a-a39b-ba9f9cf970c6)
+![7](https://github.com/macielthiago89/swaglabs/assets/92893341/e7c7559d-70cd-4d2d-89f3-4ea2fc7a7f50)
 
 ## Configurando a pasta do projeto no GitHub
 
@@ -276,19 +281,19 @@ Se mesmo após a instalação do Python o programa não reconheceu as variáveis
 
 6.10 Clique em "Source Control". (Observação: Caso não tenha a opção "Source Control" visível, clique com o botão direito na engrenagem de configuração e selecione a opção "Source Control").
 
-![8](https://github.com/macielthiago89/automacaoorange/assets/92893341/37347a4e-3123-4d2a-a37f-6ac1a24209b1)
+![8](https://github.com/macielthiago89/swaglabs/assets/92893341/f756a63e-d07f-492d-a3a4-3b82d12b3ed5)
 
 6.11 Clique em "Open Folder".
 
-![9](https://github.com/macielthiago89/automacaoorange/assets/92893341/eb50447c-070d-4604-be76-4c72dbf74138)
+![9](https://github.com/macielthiago89/swaglabs/assets/92893341/32066b46-02bc-4edb-8b74-595d68ac4422)
 
 6.12 Selecione a pasta para criar o projeto ou crie uma nova.
 
-![10](https://github.com/macielthiago89/automacaoorange/assets/92893341/c9614872-95ad-4805-988a-168944b8e1ff)
+![10](https://github.com/macielthiago89/swaglabs/assets/92893341/d1cb0a80-0e10-44ec-bf3a-6d4f364661e6)
 
 6.13 O VS Code irá exibir uma tela de confiabilidade para os autores da pasta. Selecione a caixa de seleção "Trust the authors of all files in the parent folder 'Nome da sua pasta'". Clique em "Yes, I trust the authors".
 
-![11](https://github.com/macielthiago89/automacaoorange/assets/92893341/ccaed159-54ae-47ec-a660-e140cc586794)
+![11](https://github.com/macielthiago89/swaglabs/assets/92893341/a7315810-9ea8-4f2c-b1b6-b4168677692c)
 
 ## Verificando se a pasta do projeto consta no GitHub
 
@@ -296,39 +301,39 @@ Se mesmo após a instalação do Python o programa não reconheceu as variáveis
 
 6.15 Crie um arquivo qualquer.
 
-![12](https://github.com/macielthiago89/automacaoorange/assets/92893341/4eca01a2-3929-4e5f-a080-8732a3ba43cd)
+![12](https://github.com/macielthiago89/swaglabs/assets/92893341/542a7ac2-09c1-47a9-86bf-a2fdd45585ae)
 
 6.16 Clique em "Source File". Clique em "Publish to GitHub".
 
-![14](https://github.com/macielthiago89/automacaoorange/assets/92893341/4f37897d-9549-4195-acda-008af28ae9f5)
+![14](https://github.com/macielthiago89/swaglabs/assets/92893341/38776858-72c3-4273-8cd3-3add6d8e4ef8)
 
 6.17 O sistema deve exibir uma mensagem pedindo para a extensão do GitHub acessar o GitHub pelo seu navegador. Clique em "Allow".
 
-![15](https://github.com/macielthiago89/automacaoorange/assets/92893341/e8e0f5e7-a244-48ea-87c3-07e2a618abba)
+![15](https://github.com/macielthiago89/swaglabs/assets/92893341/fe6badec-6667-4be3-af27-952e433391e2)
 
 6.18 O VS Code deve abrir seu navegador e pedir para abrir o Visual Studio Code, clique em "Sim".
 
-![16](https://github.com/macielthiago89/automacaoorange/assets/92893341/538ea72e-cf09-4bab-80d1-c8cbc696f976)
+![16](https://github.com/macielthiago89/swaglabs/assets/92893341/a261d390-2cb9-44cb-b458-965260d8ff77)
 
 6.19 Retorne ao VS Code e no campo de pesquisa insira o nome do seu repositório que será criado no GitHub.
 
-![17](https://github.com/macielthiago89/automacaoorange/assets/92893341/cebd7403-0e34-4c19-8aaf-19dd6619244a)
+![17](https://github.com/macielthiago89/swaglabs/assets/92893341/17af54c8-ec90-4c26-8f76-e1cb96514670)
 
 6.20 No VS Code, selecione no campo de pesquisa o arquivo criado anteriormente.
 
-![18](https://github.com/macielthiago89/automacaoorange/assets/92893341/6a186735-027a-457a-9305-7b2a5db326ad)
+![18](https://github.com/macielthiago89/swaglabs/assets/92893341/3a41fb63-2e0a-4bf0-8ef7-09f8402d1a87)
 
 6.21 O VS Code irá exibir para abrir o GitHub no seu navegador. Clique em "Sign in with your browser".
 
-![19](https://github.com/macielthiago89/automacaoorange/assets/92893341/387ed0a1-67b2-4064-8b1b-9e90ec78ad3c)
+![19](https://github.com/macielthiago89/swaglabs/assets/92893341/3c1e37bd-9c71-4aaa-a494-089506dbee13)
 
 6.22 O VS Code deve exibir a mensagem de sucesso. Clique em "Open on GitHub".
 
-![20](https://github.com/macielthiago89/automacaoorange/assets/92893341/dbb59ded-3fba-4e72-a96b-61a836bb6bb2)
+![20](https://github.com/macielthiago89/swaglabs/assets/92893341/6326c880-1b77-40fe-85c6-4663711eacdc)
 
 6.23 O sistema deve exibir no seu navegador a sua conta do GitHub com o seu repositório e o arquivo criado no passo 12.
 
-![21](https://github.com/macielthiago89/automacaoorange/assets/92893341/e85d5c43-a3fd-4af5-9770-5d9c1042b37e)
+![21](https://github.com/macielthiago89/swaglabs/assets/92893341/3f0f2673-fdc2-476a-9f66-715464fac555)
 
 </details>
 
@@ -353,27 +358,27 @@ git push -u origin main
 
 7.2 No arquivo criado, realize alguma edição.
 
-![22](https://github.com/macielthiago89/automacaoorange/assets/92893341/39bc365e-80e0-45f0-948c-bf7156e45832)
+![22](https://github.com/macielthiago89/swaglabs/assets/92893341/ecbf11fb-5ad1-450a-adbb-81b2f53ee79a)
 
 7.3 Clique em "Source File". Insira o título do commit no campo "Message". Clique em "Commit".
 
-![23](https://github.com/macielthiago89/automacaoorange/assets/92893341/5c041230-3e27-4779-b18d-f1c64c56c1de)
+![23](https://github.com/macielthiago89/swaglabs/assets/92893341/4f697345-bf19-4531-ba6a-b42e58151fd3)
 
 7.4 O VS Code deve exibir uma mensagem informando que não tem nenhuma edição preparada e pergunta se você quer realizar a mudança, clique em "Always".
 
-![24](https://github.com/macielthiago89/automacaoorange/assets/92893341/fa5e7f7f-2d9d-41a9-bb15-b11e53fcde76)
+![24](https://github.com/macielthiago89/swaglabs/assets/92893341/f2f59439-9ec8-4be4-abb1-50f71b162d24)
 
 7.5 Clique em "Sync Changes".
 
-![25](https://github.com/macielthiago89/automacaoorange/assets/92893341/ea4bdb0f-8759-4396-8e26-da981f9ec88b)
+![25](https://github.com/macielthiago89/swaglabs/assets/92893341/eb5946bb-b1e8-4985-9a12-804bc1e0165b)
 
 7.6 O VS Code deve exibir a mensagem informando para qual branch será feito o commit.
 
-![26](https://github.com/macielthiago89/automacaoorange/assets/92893341/e3c79e6b-e95b-471a-afaa-d03286fc5425)
+![26](https://github.com/macielthiago89/swaglabs/assets/92893341/10f615ad-993e-4f16-89f3-cc7cab0f6ec8)
 
 7.7 Atualize o seu GitHub e verifique a edição realizada.
 
-![27](https://github.com/macielthiago89/automacaoorange/assets/92893341/673e39d3-8444-4a0b-82c5-210253259d3b)
+![27](https://github.com/macielthiago89/swaglabs/assets/92893341/df2acc25-26fe-4afa-84aa-c1301c9afb9b)
 
 </details>
 
@@ -386,31 +391,31 @@ git push -u origin main
 
 8.1 No VS Code, clique em "New Window".
 
-![28](https://github.com/macielthiago89/automacaoorange/assets/92893341/85455605-cae8-427c-9e78-27c21b2cccbf)
+![28](https://github.com/macielthiago89/swaglabs/assets/92893341/3a2fe9bd-d731-4e4c-af80-d56b7936e5c3)
 
 8.2 Clique em "Source File".
 
-![29](https://github.com/macielthiago89/automacaoorange/assets/92893341/407ef211-5eb4-48bd-ad67-a46e12b8882a)
+![29](https://github.com/macielthiago89/swaglabs/assets/92893341/5dec7dbb-b890-4b90-bec5-acf52dcd41c7)
 
 8.3 Clique em "Clone Repository".
 
-![30](https://github.com/macielthiago89/automacaoorange/assets/92893341/75c0cc10-1e32-41b6-a03a-727d6feba4e7)
+![30](https://github.com/macielthiago89/swaglabs/assets/92893341/0524bea3-9ad8-4a50-9394-510326b9fba2)
 
 8.4 Selecione o repositório do GitHub que você quer clonar.
 
-![31](https://github.com/macielthiago89/automacaoorange/assets/92893341/d04941be-e768-4b3c-80f4-4358eed1ff01)
+![31](https://github.com/macielthiago89/swaglabs/assets/92893341/2a7dd673-b0bb-4af4-8240-de76377a5899)
 
 8.5 Selecione a pasta no Windows onde será salvo o seu repositório.
 
-![32](https://github.com/macielthiago89/automacaoorange/assets/92893341/d9063919-01af-42b9-91a6-42e88058873d)
+![32](https://github.com/macielthiago89/swaglabs/assets/92893341/f51918c2-40a8-405a-adea-66fd08606fa0)
 
 8.6 Clique em "Open in New Window".
 
-![33](https://github.com/macielthiago89/automacaoorange/assets/92893341/b90beae6-0450-47b9-a2a7-750815df4c8a)
+![33](https://github.com/macielthiago89/swaglabs/assets/92893341/094daff9-5994-47ad-ac8c-7c5932ce4c3c)
 
 8.7 As pastas serão clonadas do repositório do GitHub e inseridas no VS Code.
 
-![34](https://github.com/macielthiago89/automacaoorange/assets/92893341/b2cf0ec7-34b0-477b-898f-fd61316e56ac)
+![34](https://github.com/macielthiago89/swaglabs/assets/92893341/21e0e139-8ca2-49fd-b6d9-c066cf747d2f)
 
 </details>
 

@@ -1,4 +1,4 @@
-<h1 align="center">PROJETO DE AUTOMAÇÃO DO SITE SWAGLABS </h1>
+<h1 align="center">PROJETO DE AUTOMAÇÃO DO SITE SWAG LABS </h1>
 
 <h4 align="center"> 
     :construction:  Projeto em construção  :construction:
@@ -8,6 +8,24 @@
     
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/macielthiago89/swaglabs/blob/main/LICENSE)
 </h4>
+
+# Objetivo
+
+Este projeto se concentra na automação do site Swag Labs ([Swag Labs](www.saucedemo.com)), que foi desenvolvido especificamente para permitir testes de automação. Ele serve como um ambiente de treinamento onde os desenvolvedores e testadores podem praticar e aprender técnicas de automação de testes utilizando diferentes ferramentas e frameworks, como o Robot Framework, Selenium, entre outros. O "Swag Labs" geralmente simula um site de comércio eletrônico fictício, oferecendo produtos para compra e funcionalidades comuns de e-commerce, como login de usuários, adição de itens ao carrinho de compras, checkout, entre outros. 
+
+## Automação com Robot Framework
+
+O Robot Framework é uma ferramenta de automação de código aberto amplamente utilizada para escrever testes automatizados. Ele oferece uma sintaxe simples e legível que facilita a criação e manutenção de testes automatizados. Neste projeto, utilizamos o Robot Framework para escrever casos de teste que cobrem diversas funcionalidades do OrangeHRM. A flexibilidade e extensibilidade do Robot Framework permitem uma integração perfeita com o OrangeHRM, garantindo uma cobertura abrangente dos testes, através de keywords
+
+## Execução dos Testes com VS Code
+
+Para realizar a execução dos testes automatizados, utilizamos o Visual Studio Code (VS Code). O VS Code é um ambiente de desenvolvimento integrado (IDE) leve e altamente personalizável, que oferece suporte para uma variedade de linguagens de programação, incluindo Python (utilizado pelo Robot Framework). Sua interface intuitiva e extensível facilita a execução dos testes automatizados, além de proporcionar recursos avançados para depuração e análise de resultados.
+
+## Gerenciamento de Código com GitHub
+
+O GitHub é uma plataforma de hospedagem de código-fonte baseada em Git, que oferece controle de versão distribuído e recursos colaborativos para desenvolvedores. Utilizamos o GitHub para salvar o código-fonte do projeto e gerenciar as atualizações de forma eficiente. Além disso, o GitHub oferece recursos como pull requests e issues, que facilitam a revisão de código e a colaboração entre membros da equipe de automação de testes.
+
+Este repositório contém os scripts de automação, casos de teste e recursos necessários para a execução e manutenção dos testes automatizados no OrangeHRM. Contribuições são bem-vindas!
 
 # Guia de Instalação e Configuração
 

@@ -425,6 +425,6 @@ Autor
 
 </h1>
 
-| [<img loading="lazy" src="https://github.com/macielthiago89/automacaoorange/assets/92893341/f7c12873-eed6-485f-905d-2f845e46a950" width=115><br><sub>Thiago Andrade</sub>](https://github.com/macielthiago89/) |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/92893341?s=400&u=0989f8aaeafda3859f2027f9505d0a2905697e91&v=4" width=115><br><sub>Thiago Andrade</sub>](https://github.com/macielthiago89/) |
 | :---: | 
 

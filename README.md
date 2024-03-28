@@ -114,9 +114,7 @@ A licença MIT permite que o software seja tratado sem restrições para o uso, 
 Arquivo com o código em JSON para exibir as keywords do Robot Framework.
 
 </details>
-
-# Guia de Instalação e Configuração
-   
+  
 # 3.Instalando o Python
 
 <details>

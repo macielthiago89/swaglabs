@@ -36,7 +36,7 @@
 
 <details>
 
-<summary> Clique para expandir o Objetivo </summary>
+<summary> Clique para expandir o Objetivo, Automação com Robot Framework, Execução dos Testes com VS Code, Gerenciamento de Código com GitHub </summary>
 
 Este projeto se concentra na automação do site Swag Labs ([Swag Labs](https://www.saucedemo.com)), que foi desenvolvido especificamente para permitir testes de automação. Ele serve como um ambiente de treinamento onde os desenvolvedores e testadores podem praticar e aprender técnicas de automação de testes utilizando diferentes ferramentas e frameworks, como o Robot Framework, Selenium, entre outros. O "Swag Labs" geralmente simula um site de comércio eletrônico fictício, oferecendo produtos para compra e funcionalidades comuns de e-commerce, como login de usuários, adição de itens ao carrinho de compras, checkout, entre outros. 
 
@@ -60,7 +60,7 @@ Este repositório contém os scripts de automação, casos de teste e recursos n
 
 <details>
 
-<summary> Clique para expandir o Organização das Pastas </summary>
+<summary> Clique para expandir o Organização das Pastas, Pasta Test Case Swag Labs, Pasta Settings, Pasta settings/main, Pasta settings/resources/resources_casos_de_teste, Pasta settings/resources/resource_test_setup, Pasta settings/resources/resource_test_teardown, Pasta settings/variables, Arquivo LICENSE, README e workspace.code-workspace  </summary>
 
 Ao utilizar o Robot Framework, temos muita facilidade na especificação do código, pois este trabalha com abordagem keyword-driven, reduzindo quase completamente a necessidade de implementar uma linguagem de programação. Porém, mesmo com esta facilidade, precisamos organizar as keywords, locators, variáveis e test cases de modo a facilitar o trabalho em equipe e a manutenção do código.
 

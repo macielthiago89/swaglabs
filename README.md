@@ -31,7 +31,8 @@
    * [Configurando a pasta do projeto no GitHub](#configurando-a-pasta-do-projeto-no-github)
 9. [Realizando seu primeiro commit](#9realizando-seu-primeiro-commit)
 10. [Realizando seu primeiro git clone](#10realizando-seu-primeiro-git-clone)
-
+11. [Cenarios de testes para o site https://www.saucedemo.com](#11cenarios-de-testes-para-o-site-httpswwwsaucedemocom)
+    
 # 1.Objetivo
 
 <details>
@@ -489,6 +490,72 @@ git push -u origin main
 10.7 As pastas serão clonadas do repositório do GitHub e inseridas no VS Code.
 
 ![34](https://github.com/macielthiago89/swaglabs/assets/92893341/21e0e139-8ca2-49fd-b6d9-c066cf747d2f)
+
+</details>
+
+# 11.Cenarios de testes para o site https://www.saucedemo.com
+
+<details>
+
+<summary> Clique para expandir o menu Cenarios de testes para o site https://www.saucedemo.com </summary>
+
+## Tela Principal
+
+- Realizar o login.
+- Visualizar a mensagem de campo obrigatório para os campos username e password.
+- Visualizar a mensagem de campo obrigatório para o campo username.
+- Visualizar a mensagem de campo obrigatório para o campo password.
+- Fechar mensagem de campo obrigatório para o campo username.
+- Fechar mensagem de campo obrigatório para o campo password.
+
+## Tela do Inventário
+
+- Clicar no botão para abrir a aba do menu.
+- Clicar no botão para fechar a aba do menu.
+- Clicar no botão "Remove item".
+- Acessar a tela "All Items".
+- Acessar a tela "About".
+- Realizar o logout.
+- Acessar a tela "Reset App State".
+- Funcionalidade de filtro por Nome (A a Z).
+- Funcionalidade de filtro por Nome (Z a A).
+- Funcionalidade de filtro por Preço (Baixo para Alto).
+- Funcionalidade de filtro por Preço (Alto para Baixo).
+- Clicar no botão "Add to Cart".
+- Acessar as informações de um produto.
+
+## Tela de um Item do Inventário
+
+- Clicar no botão "Add to Cart".
+- Clicar no botão "Back to Products".
+- Clicar no botão "Remove".
+
+## Tela do Carrinho
+
+- Clicar no botão "Continue Shopping".
+- Clicar no botão "Checkout".
+
+## Tela do Checkout - Passo um
+
+- Clicar no botão "Cancel".
+- Clicar no botão "Continue".
+- Visualizar a mensagem de campo obrigatório para os campos first name, last name e zip/postal code.
+- Visualizar a mensagem de campo obrigatório para os campos last name e zip/postal code.
+- Visualizar a mensagem de campo obrigatório para o campo zip/postal code.
+
+## Tela do Checkout - Passo dois
+
+- Clicar no botão "Cancel".
+- Clicar no botão "Finish".
+
+## Funcionalidades Adicionais
+
+- Testar a função de adicionar item ao carrinho.
+- Adicionar um item ao carrinho.
+- Clicar no botão "Remove".
+- Verificar se a tela do checkout step two exibe o item adicionado.
+- Verificar a quantidade de itens no carrinho.
+- Verificar o número de itens adicionados no carrinho.
 
 </details>
 

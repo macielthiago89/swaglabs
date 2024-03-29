@@ -19,7 +19,7 @@ Se você quiser saber mais sobre meu trabalho ou apenas bater um papo sobre test
 
 Estou sempre em busca de novas oportunidades de aprendizado e colaboração, então não hesite em entrar em contato!
 
-# Súmario
+# Sumário
 
 1. [Objetivo](#1objetivo)
    * [Automação com Robot Framework](#automa%C3%A7%C3%A3o-com-robot-framework)

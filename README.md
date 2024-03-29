@@ -9,6 +9,18 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/macielthiago89/swaglabs/blob/main/LICENSE)
 </h4>
 
+Olá! 👋 Meu nome é Thiago Maciel Andrade, sou um analista de teste de software com certificação CTFL (Certified Tester Foundation Level) e formação em Análise e Desenvolvimento de Sistemas. Possuo conhecimento em automação de testes, com foco principal no uso do Robot Framework
+
+## Minha Contribuição para a Comunidade
+Sou um dos criadores do Discord **Área Tester**, uma comunidade dedicada a profissionais e entusiastas da área de teste de software. Nossa comunidade oferece um ambiente acolhedor para compartilhar conhecimento, discutir melhores práticas, e explorar as últimas tendências e ferramentas no mundo dos testes de software. Junte-se a nós [aqui](https://discord.gg/r7p2h6m58V)!
+
+## Conecte-se Comigo
+Se você quiser saber mais sobre meu trabalho ou apenas bater um papo sobre testes de software, sinta-se à vontade para me encontrar no [LinkedIn](https://www.linkedin.com/in/thiagomacielandrade/).
+
+Estou sempre em busca de novas oportunidades de aprendizado e colaboração, então não hesite em entrar em contato!
+
+# Súmario
+
 1. [Objetivo](#1objetivo)
    * [Automação com Robot Framework](#automa%C3%A7%C3%A3o-com-robot-framework)
    * [Execução dos Testes com VS Code](#execu%C3%A7%C3%A3o-dos-testes-com-vs-code)

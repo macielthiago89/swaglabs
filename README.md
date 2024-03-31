@@ -1,4 +1,6 @@
-<h1 align="center">PROJETO DE AUTOMAÇÃO DO SITE SWAG LABS </h1>
+<h1 align="center"> <img src="https://github.com/macielthiago89/swaglabs/assets/92893341/4dc8fa59-42e7-49cf-bfad-54b3c204ee3e" width="200" height="200"> </h1>  
+
+<h1 align="center">PROJETO DE AUTOMAÇÃO DO SITE SWAG LABS  </h1>   
 
 <h4 align="center"> 
     :construction:  Projeto em construção  :construction:

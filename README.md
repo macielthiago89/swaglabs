@@ -1,4 +1,6 @@
-<h1 align="center">PROJETO DE AUTOMAÇÃO DO SITE SWAG LABS </h1>
+<h1 align="center"> <img src="https://github.com/macielthiago89/swaglabs/assets/92893341/4dc8fa59-42e7-49cf-bfad-54b3c204ee3e" width="200" height="200"> </h1>  
+
+<h1 align="center"> <img align="center" alt="Rafa-Python" height="30" width="30" src="https://github.com/macielthiago89/macielthiago89/assets/92893341/47fbee38-1830-4719-b39b-c07fcc6b29b1"> PROJETO DE AUTOMAÇÃO DO SITE SWAG LABS <img align="center" alt="Rafa-Python" height="30" width="30" src="https://github.com/macielthiago89/macielthiago89/assets/92893341/47fbee38-1830-4719-b39b-c07fcc6b29b1">  </h1>   
 
 <h4 align="center"> 
     :construction:  Projeto em construção  :construction:
@@ -50,7 +52,7 @@ Estou sempre em busca de novas oportunidades de aprendizado e colaboração, ent
 
 <details>
 
-<summary> Clique para expandir o Objetivo, Automação com Robot Framework, Execução dos Testes com VS Code, Gerenciamento de Código com GitHub </summary>
+<summary> Clique para expandir o menu Objetivo </summary>
 
 Este projeto se concentra na automação do site Swag Labs ([Swag Labs](https://www.saucedemo.com)), que foi desenvolvido especificamente para permitir testes de automação. Ele serve como um ambiente de treinamento onde os desenvolvedores e testadores podem praticar e aprender técnicas de automação de testes utilizando diferentes ferramentas e frameworks, como o Robot Framework, Selenium, entre outros. O "Swag Labs" geralmente simula um site de comércio eletrônico fictício, oferecendo produtos para compra e funcionalidades comuns de e-commerce, como login de usuários, adição de itens ao carrinho de compras, checkout, entre outros. 
 
@@ -74,7 +76,7 @@ Este repositório contém os scripts de automação, casos de teste e recursos n
 
 <details>
 
-<summary> Clique para expandir o Organização das Pastas, Pasta Test Case Swag Labs, Pasta Settings, Pasta settings/main, Pasta settings/resources/resources_casos_de_teste, Pasta settings/resources/resource_test_setup, Pasta settings/resources/resource_test_teardown, Pasta settings/variables, Arquivo LICENSE, README e workspace.code-workspace  </summary>
+<summary> Clique para expandir o menu Organização das Pastas </summary>
 
 Ao utilizar o Robot Framework, temos muita facilidade na especificação do código, pois este trabalha com abordagem keyword-driven, reduzindo quase completamente a necessidade de implementar uma linguagem de programação. Porém, mesmo com esta facilidade, precisamos organizar as keywords, locators, variáveis e test cases de modo a facilitar o trabalho em equipe e a manutenção do código.
 
@@ -133,7 +135,7 @@ Arquivo com o código em JSON para exibir as keywords do Robot Framework.
 
 <details>
 
-<summary> Clique para expandir o Instalando o Python </summary>
+<summary> Clique para expandir o menu Instalando o Python </summary>
 
 3.1 Acesse o site [python.org/downloads](https://www.python.org/downloads/) ou pesquise no Google por "Python" e clique em "Downloads".
 
@@ -593,6 +595,7 @@ Na pasta `swaglabs/settings/resources/resource_test_setup`, foi criado um arquiv
 Na pasta `settings/main`, foram criados os seguintes arquivos:
 
 - `Main_resource`: Onde constam todos os caminhos dos recursos.
+- `Main_keywords`: Onde constam todas a keywords criadas pelo usuario.
 - `Main_variables`: Onde constam todos os caminhos das variáveis, criadas em forma de lista para serem aproveitadas durante todo o projeto.
 - `Main_dados`: Onde constam todos os dados fixos utilizados nos testes, como ambiente, usuário, senha, etc., definidos por variáveis.
 - `Main`: Onde foi criado um "encapsulamento" entre as pastas de configurações, criando um Page Object Model (POM), onde todas as pastas se interligam no arquivo `main.robot` que se encontra no caminho `settings/main/`.
@@ -625,6 +628,8 @@ No caso de teste consta:
 <Caminho do arquivo> robot .\test_setup.robot
 
 ```
+
+Ao decorrer das escritas o test setup será transformada em Keyword, um dos beneficios do Robot framework é você poder criar sua propria keyword.
 
 </details>
 

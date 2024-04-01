@@ -11,7 +11,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/macielthiago89/swaglabs/blob/main/LICENSE)
 </h4>
 
-Olá! 👋 Meu nome é Thiago Maciel Andrade, sou um analista de teste de software com certificação CTFL (Certified Tester Foundation Level) e formação em Análise e Desenvolvimento de Sistemas. Possuo conhecimento em automação de testes, com foco principal no uso do Robot Framework.
+Olá! 👋 Meu nome é Thiago Maciel Andrade, sou um analista de teste de software com certificação CTFL (Certified Tester Foundation Level) e formação em Análise e Desenvolvimento de Sistemas. Possuo conhecimento em automação de testes, com foco principal no uso do Robot Framework
 
 ## Minha Contribuição para a Comunidade
 Sou um dos criadores do Discord **Área Tester**, uma comunidade dedicada a profissionais e entusiastas da área de teste de software. Nossa comunidade oferece um ambiente acolhedor para compartilhar conhecimento, discutir melhores práticas, e explorar as últimas tendências e ferramentas no mundo dos testes de software. Junte-se a nós [aqui](https://discord.gg/r7p2h6m58V)!
@@ -46,12 +46,13 @@ Estou sempre em busca de novas oportunidades de aprendizado e colaboração, ent
 9. [Realizando seu primeiro commit](#9realizando-seu-primeiro-commit)
 10. [Realizando seu primeiro git clone](#10realizando-seu-primeiro-git-clone)
 11. [Cenarios de testes para o site https://www.saucedemo.com](#11cenarios-de-testes-para-o-site-httpswwwsaucedemocom)
+12. [Test Setup](#12test-setup)
     
 # 1.Objetivo
 
 <details>
 
-<summary> Clique para expandir o menu Objetivo, Automação com Robot Framework, Execução dos Testes com VS Code, Gerenciamento de Código com GitHub </summary>
+<summary> Clique para expandir o menu Objetivo </summary>
 
 Este projeto se concentra na automação do site Swag Labs ([Swag Labs](https://www.saucedemo.com)), que foi desenvolvido especificamente para permitir testes de automação. Ele serve como um ambiente de treinamento onde os desenvolvedores e testadores podem praticar e aprender técnicas de automação de testes utilizando diferentes ferramentas e frameworks, como o Robot Framework, Selenium, entre outros. O "Swag Labs" geralmente simula um site de comércio eletrônico fictício, oferecendo produtos para compra e funcionalidades comuns de e-commerce, como login de usuários, adição de itens ao carrinho de compras, checkout, entre outros. 
 
@@ -75,7 +76,7 @@ Este repositório contém os scripts de automação, casos de teste e recursos n
 
 <details>
 
-<summary> Clique para expandir o menu Organização das Pastas  </summary>
+<summary> Clique para expandir o menu Organização das Pastas </summary>
 
 Ao utilizar o Robot Framework, temos muita facilidade na especificação do código, pois este trabalha com abordagem keyword-driven, reduzindo quase completamente a necessidade de implementar uma linguagem de programação. Porém, mesmo com esta facilidade, precisamos organizar as keywords, locators, variáveis e test cases de modo a facilitar o trabalho em equipe e a manutenção do código.
 
@@ -570,6 +571,65 @@ git push -u origin main
 - Verificar se a tela do checkout step two exibe o item adicionado.
 - Verificar a quantidade de itens no carrinho.
 - Verificar o número de itens adicionados no carrinho.
+
+</details>
+
+# 12.Test Setup
+
+<details>
+
+<summary> Clique para expandir o menu Test Setup </summary>
+
+No Robot Framework, o termo "test setup" refere-se a uma seção especial de um caso de teste ("test case") que é usada para configurar o ambiente de teste antes que o teste real seja executado. Esta seção é uma das quatro partes principais de um caso de teste no Robot Framework, juntamente com "Settings", "Test Case" e "Teardown".
+
+A importância do "test setup" reside na capacidade de preparar o ambiente de teste de maneira consistente e confiável antes de cada execução de teste. Isso pode incluir a inicialização de aplicativos, a configuração de estados de sistema específicos, a definição de variáveis necessárias ou a configuração de outros pré-requisitos para o teste.
+
+Alguns dos principais aspectos da importância do "test setup" no Robot Framework incluem consistência, economia de tempo, redução de erros, facilidade de manutenção e reutilização. Em resumo, o "test setup" no Robot Framework desempenha um papel crucial na automação de testes, garantindo que o ambiente de teste seja configurado corretamente e de forma consistente antes da execução do teste real, resultando em testes mais eficientes e confiáveis.
+
+## Implementação do Test Setup
+
+### Configurações
+
+Na pasta `swaglabs/settings/resources/resource_test_setup`, foi criado um arquivo `resource_test_setup.robot`, nele devem constar os passos descritos no "test case" do "test setup" em forma de palavras-chave contidas nas bibliotecas que o Robot suporta.
+
+Na pasta `settings/main`, foram criados os seguintes arquivos:
+
+- `Main_resource`: Onde constam todos os caminhos dos recursos.
+- `Main_keywords`: Onde constam todas a keywords criadas pelo usuario.
+- `Main_variables`: Onde constam todos os caminhos das variáveis, criadas em forma de lista para serem aproveitadas durante todo o projeto.
+- `Main_dados`: Onde constam todos os dados fixos utilizados nos testes, como ambiente, usuário, senha, etc., definidos por variáveis.
+- `Main`: Onde foi criado um "encapsulamento" entre as pastas de configurações, criando um Page Object Model (POM), onde todas as pastas se interligam no arquivo `main.robot` que se encontra no caminho `settings/main/`.
+
+Todos os arquivos serão utilizados durante todo o projeto para inserir os caminhos das pastas que serão declaradas em todo o projeto.
+
+O Page Object Model (POM) é uma técnica de design comum em automação de testes, e sua importância no Robot Framework é significativa. O POM visa melhorar a manutenção, reutilização e escalabilidade dos casos de teste automatizados, abstraindo a estrutura e os elementos da interface do usuário (UI) em objetos reutilizáveis. Manutenção Simplificada, Reutilização de Código, Abstração de Detalhes da Interface do Usuário, Facilidade de Leitura e Manutenção de Casos de Teste e Paralelismo e Escalabilidade são algumas das principais razões pelas quais o POM é importante no contexto do Robot Framework.
+
+Em resumo, o Page Object Model desempenha um papel fundamental na automação de testes com o Robot Framework, permitindo uma estrutura mais organizada, reutilizável e de fácil manutenção para os casos de teste automatizados. Isso ajuda a melhorar a eficiência, a confiabilidade e a escalabilidade dos processos de automação de testes.
+
+### Caso de teste "test_setup"
+
+Na pasta `swaglabs/test_case_swaglabs/test_setup/`, foi criado um arquivo `test_setup.robot`, nele devem constar o caso de teste responsável pelos passos para ser executado o "test setup".
+
+Foram escritos os passos para acessar o site e realizar o login, verificando o sucesso ao logar.
+
+No caso de teste consta:
+
+- Documentation da suite: Responsável por informar ao usuário qual o objetivo do teste.
+- Metadata: São os dados que serão exibidos no log report.
+- Resource: Declarado a partir do caminho do arquivo `main.robot`.
+- Test Timeout: Definido em 2 minutos.
+- Documentation do caso de teste: Onde constam as pré-condições para serem realizados os testes.
+- Tags: Informando duas tags para execução direcionada a esse teste. Foram criadas as tags `test_setup`, com a finalidade de executar somente esse caso de teste, e a tag `regression`, onde todos os casos de teste receberão essa tag para serem executados em conjunto em uma futura regressão.
+
+### Comando para executar o "test_setup"
+
+```bash
+
+<Caminho do arquivo> robot .\test_setup.robot
+
+```
+
+Ao decorrer das escritas o test setup será transformada em Keyword, um dos beneficios do Robot framework é você poder criar sua propria keyword.
 
 </details>
 

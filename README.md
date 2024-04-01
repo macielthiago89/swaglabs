@@ -631,6 +631,10 @@ No caso de teste consta:
 
 Ao decorrer das escritas o test setup será transformada em Keyword, um dos beneficios do Robot framework é você poder criar sua propria keyword.
 
+### Vídeo de implementação:
+[Clique aqui para visualizar o vídeo do Test Setup](https://drive.google.com/file/d/1BHq4NNcTYvJ1inFQqlIJ5XRscIPv_wq0/view?usp=drive_link)
+
+
 </details>
 
 <h1 align="center"> 

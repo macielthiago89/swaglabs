@@ -49,7 +49,6 @@ Estou sempre em busca de novas oportunidades de aprendizado e colaboração, ent
 12. [Test Setup](#12test-setup)
 13. [Test Teardown](#13test-teardown)
 14. [Escrita dos Casos de Teste](#14escrita-dos-casos-de-teste)
-
     
 # 1.Objetivo
 
@@ -634,9 +633,6 @@ No caso de teste consta:
 
 Ao decorrer das escritas o test setup será transformada em Keyword, um dos beneficios do Robot framework é você poder criar sua propria keyword.
 
-### Vídeo de implementação:
-[Clique aqui para visualizar o vídeo do Test Setup](https://drive.google.com/file/d/1BHq4NNcTYvJ1inFQqlIJ5XRscIPv_wq0/view?usp=drive_link)
-
 </details>
 
 # 13.Test Teardown
@@ -667,8 +663,6 @@ O resource do test teardown foi declarado no arquivo `main_resource.robot`.
 Ao escrever as variáveis, foi introduzida a keyword `Capture Page Screenshot`, que contém 2 argumentos que serão declarados em cada caso de teste, facilitando a identificação das evidências de acordo com o caso de teste.
 
 Todos os arquivos serão utilizados durante todo o projeto para inserir os caminhos das pastas que serão declaradas em todo o projeto.
-
-[Clique aqui para visualizar o vídeo do Test Teardown]
 
 </details>
 
@@ -720,7 +714,7 @@ Foram criados arquivos separados e colocados nas pastas de suas respectivas fun�
 `<Caminho do arquivo> robot –d .log .\CT<numero do caso de teste>Titulo do caso de teste.robot`
 
 ### Vídeo de implementação:
-[Clique aqui para visualizar o vídeo do 1º caso de teste]
+[Clique aqui para visualizar o vídeo do Test Setup](https://drive.google.com/file/d/1BHq4NNcTYvJ1inFQqlIJ5XRscIPv_wq0/view?usp=drive_link)
 
 </details>
 

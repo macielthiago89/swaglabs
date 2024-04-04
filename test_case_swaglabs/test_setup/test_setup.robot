@@ -1,7 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary
 
-Documentation    Este caso de teste tem como objetivo de realizar o login no site do Swag Labs
+Documentation    Este caso de teste tem como objetivo de realizar o login no site do Swag Labs.
 
 Metadata        Ambiente     ${AMBIENTE}
 

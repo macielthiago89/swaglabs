@@ -47,6 +47,9 @@ Estou sempre em busca de novas oportunidades de aprendizado e colaboração, ent
 10. [Realizando seu primeiro git clone](#10realizando-seu-primeiro-git-clone)
 11. [Cenarios de testes para o site https://www.saucedemo.com](#11cenarios-de-testes-para-o-site-httpswwwsaucedemocom)
 12. [Test Setup](#12test-setup)
+13. [Test Teardown](#13test-teardown)
+14. [Escrita dos Casos de Teste](#14escrita-dos-casos-de-teste)
+
     
 # 1.Objetivo
 
@@ -634,6 +637,90 @@ Ao decorrer das escritas o test setup será transformada em Keyword, um dos bene
 ### Vídeo de implementação:
 [Clique aqui para visualizar o vídeo do Test Setup](https://drive.google.com/file/d/1BHq4NNcTYvJ1inFQqlIJ5XRscIPv_wq0/view?usp=drive_link)
 
+</details>
+
+# 13.Test Teardown
+
+<details>
+
+<summary> Clique para expandir o menu Test Teardown </summary>
+
+O "test teardown" no Robot Framework é uma funcionalidade que permite a execução de ações específicas após a conclusão de um caso de teste. Basicamente, é uma seção reservada onde você pode definir tarefas que precisam ser executadas independentemente do resultado do teste, seja ele passando ou falhando.
+
+A importância do "test teardown" reside em algumas áreas chave:
+
+- **Limpeza de ambiente**: Garantir que o ambiente seja deixado em um estado consistente após a execução do teste.
+- **Liberação de recursos**: Garantir que recursos alocados durante a execução do teste sejam liberados, evitando vazamentos de recursos.
+- **Relatórios e Logging**: Registrar informações adicionais sobre a execução do teste para entender o contexto, mesmo em caso de falha.
+- **Configuração para o próximo teste**: Preparar o ambiente para o próximo teste revertendo configurações ou restaurando o estado inicial do sistema.
+
+Em resumo, o "test teardown" é uma parte crucial da estrutura de automação de teste do Robot Framework, pois permite a execução de ações importantes antes de finalizar a execução de um caso de teste, garantindo assim a consistência e a confiabilidade dos testes automatizados.
+
+## Implementação do Test Teardown
+
+### Configurações
+
+Na pasta `swaglabs/settings/resources/resource_test_teardown`, foi criado um arquivo `resource_test_teardown.robot`. Nele, devem constar as keywords a serem executadas no test teardown.
+
+O resource do test teardown foi declarado no arquivo `main_resource.robot`.
+
+Ao escrever as variáveis, foi introduzida a keyword `Capture Page Screenshot`, que contém 2 argumentos que serão declarados em cada caso de teste, facilitando a identificação das evidências de acordo com o caso de teste.
+
+Todos os arquivos serão utilizados durante todo o projeto para inserir os caminhos das pastas que serão declaradas em todo o projeto.
+
+[Clique aqui para visualizar o vídeo do Test Teardown]
+
+</details>
+
+# 14.Escrita dos Casos de Teste
+
+<details>
+
+<summary> Clique para expandir o menu Escrita dos Casos de Teste </summary>
+
+O Robot Framework é uma estrutura de automação de teste de código aberto amplamente utilizada para escrever casos de teste e automatizar testes em uma variedade de aplicativos e sistemas. Aqui estão algumas das principais razões pelas quais é importante utilizar o Robot Framework na escrita de casos de teste:
+
+- **Facilidade de uso:** O Robot Framework utiliza uma sintaxe fácil de entender e uma estrutura de arquivo tabular que torna a escrita e manutenção dos casos de teste mais acessível para profissionais de teste, desenvolvedores e outros membros da equipe.
+
+- **Reutilização de código:** Ele suporta a reutilização de bibliotecas de código, permitindo que os testadores escrevam bibliotecas personalizadas ou reutilizem bibliotecas existentes para diferentes projetos e cenários de teste. Isso economiza tempo e esforço, uma vez que partes comuns de testes podem ser reaproveitadas facilmente.
+
+- **Integração com diversas tecnologias:** O Robot Framework possui uma vasta gama de bibliotecas e plug-ins que permitem a integração com diferentes tecnologias e ferramentas de automação, como Selenium para testes web, Appium para testes mobile, e muitos outros. Isso oferece flexibilidade para testar uma variedade de sistemas e aplicativos.
+
+- **Suporte à automação de teste de aceitação:** O Robot Framework é altamente adequado para automação de teste de aceitação, permitindo que os testadores escrevam casos de teste que validem se um sistema atende aos requisitos de negócio e comportamento esperado.
+
+- **Geração de relatórios e logs:** Ele gera relatórios e logs detalhados após a execução dos testes, fornecendo uma visão clara sobre o resultado dos testes, incluindo sucesso, falhas e erros. Isso ajuda na identificação e resolução rápida de problemas.
+
+- **Suporte à abordagem de desenvolvimento ágil:** O Robot Framework é flexível e pode ser facilmente integrado em processos de desenvolvimento ágil, permitindo que os testes sejam automatizados e executados continuamente durante o ciclo de desenvolvimento.
+
+- **Comunidade ativa e suporte:** O Robot Framework possui uma comunidade ativa de usuários e desenvolvedores, o que significa que há uma abundância de recursos, documentação e suporte disponíveis para ajudar os usuários a resolver problemas e aprender mais sobre a estrutura.
+
+Em resumo, a utilização do Robot Framework na escrita de casos de teste oferece uma série de benefícios, incluindo facilidade de uso, reutilização de código, integração com diversas tecnologias, suporte à automação de teste de aceitação, geração de relatórios detalhados e suporte à abordagem ágil de desenvolvimento. Isso faz com que seja uma escolha valiosa para equipes de teste que buscam aumentar a eficiência e a qualidade de seus processos de teste de software.
+
+## Implementação dos Casos de Teste
+
+Foi criada uma pasta chamada `test_case_swaglabs` com o nome `test_case_swaglabs`. Dentro desta pasta, os casos de teste foram divididos por tela, e dentro dessas pastas de telas constam os casos de teste iniciados por `CT` e sua numeração em ordem crescente de acordo com os cenários criados e citados no tópico 11 deste README.
+
+Cada caso de teste receberá na sessão `TAG` sua tag de regressão e `CT` com seu número do caso de teste. Também receberão no `test teardown` suas variáveis com o nome da tela e `CT` com seu número do caso de teste, para serem organizados quando a keyword `capture page screenshot` for usada, facilitando o entendimento das evidências. No caso de teste também constam:
+
+- `Documentation da suite:` Responsável por informar ao usuário qual o objetivo do teste.
+- `Metadata:` São os dados que serão exibidos no log report.
+- `Resource:` Declarado a partir do caminho do arquivo `main.robot`.
+- `Test Timeout:` Definido em 2 minutos.
+- `Documentation do caso de teste:` Onde constam as pré-condições para serem realizados os testes.
+- `Test setup:` Criado e transformado em keyword onde é o primeiro arquivo a ser executado no caso de teste.
+- `Test Teardown:` Criado para registrar as evidências e fechar o browser.
+
+Foram criados arquivos separados e colocados nas pastas de suas respectivas funções:
+- Armazenamentos das variáveis ficam na pasta `variables_testcase.robot`.
+- Armazenamentos das resources ficam na pasta `resource_testcase.robot`.
+- Todos os arquivos são "Encapsulados" e referenciados no arquivo `main.robot`.
+
+## Comando para Executar o Caso de Teste:
+
+`<Caminho do arquivo> robot –d .log .\CT<numero do caso de teste>Titulo do caso de teste.robot`
+
+### Vídeo de implementação:
+[Clique aqui para visualizar o vídeo do 1º caso de teste]
 
 </details>
 

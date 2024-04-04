@@ -10,7 +10,7 @@ Resource    ../../../swaglabs/settings/main/main.robot
 Test Timeout    2 minutes
 
 *** Test Cases ***
-Realizar test setup
+Acessar o site "Swag Labs"
     [Documentation]
     ...    Pré condição:
     ...    

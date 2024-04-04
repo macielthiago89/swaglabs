@@ -528,7 +528,7 @@ git push -u origin main
 
 ## Tela do Inventário
 
-- Clicar no botão para abrir a aba do menu.
+- Clicar no botão para abrir a aba do menu.✅
 - Clicar no botão para fechar a aba do menu.
 - Clicar no botão "Remove item".
 - Acessar a tela "All Items".

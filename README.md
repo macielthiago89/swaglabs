@@ -47,8 +47,7 @@ Estou sempre em busca de novas oportunidades de aprendizado e colaboração, ent
 10. [Realizando seu primeiro git clone](#10realizando-seu-primeiro-git-clone)
 11. [Cenarios de testes para o site https://www.saucedemo.com](#11cenarios-de-testes-para-o-site-httpswwwsaucedemocom)
 12. [Test Setup](#12test-setup)
-13. [Test Teardown](#13test-teardown)
-14. [Escrita dos Casos de Teste](#14escrita-dos-casos-de-teste)
+
     
 # 1.Objetivo
 
@@ -76,60 +75,6 @@ Este repositório contém os scripts de automação, casos de teste e recursos n
 
 # 2.Organização das Pastas
 
-<details>
-
-<summary> Clique para expandir o menu Organização das Pastas </summary>
-
-Ao utilizar o Robot Framework, temos muita facilidade na especificação do código, pois este trabalha com abordagem keyword-driven, reduzindo quase completamente a necessidade de implementar uma linguagem de programação. Porém, mesmo com esta facilidade, precisamos organizar as keywords, locators, variáveis e test cases de modo a facilitar o trabalho em equipe e a manutenção do código.
-
-## Pasta Test Case Swag Labs
-
-Nesta pasta é onde se encontram os Test Cases, pastas onde os casos de teste serão escritos para serem executados através das keywords. As pastas são divididas por grupos de funcionalidades de cada tela do site, que aos poucos iremos cobrir todas as funcionalidades encontradas nas telas.
-
-Em cada pasta dos grupos de funcionalidades também constam as pastas das evidências, renomeadas através do Robot, de acordo com o caso de teste.
-
-## Pasta Settings
-
-As pastas estão divididas por resources e variables. Utilizando o Padrão de Objeto de Página (POM), este padrão nos permite organizar as keywords, locators e variáveis.
-
-### Pasta settings/main
-
-- **Main**: Esta pasta é responsável por organizar e relacionar as pastas pais de settings através de um tipo de "encapsulamento".
-- **Main_dados**: Esta pasta é responsável por conter os dados que serão utilizados com frequência na escrita e execução dos testes, como os dados de login, nome da empresa e ambiente.
-- **Main_keywords**: Esta pasta é responsável por conter as keywords criadas pelo usuário durante a escrita e execução dos testes.
-- **Main_resources**: Esta pasta contém todos os caminhos dos resources das keywords criadas para escrita e execução dos casos de testes.
-- **Main_variables**: Esta pasta contém todos os caminhos das variáveis inseridas nos locators das keywords criadas para escrita e execução dos casos de testes.
-
-### Pasta settings/resources/resources_casos_de_teste
-
-- **resources_casos_de_teste**: Esta pasta é responsável por conter as keywords padrões das libraries do Robot Framework. Keywords relacionadas aos steps dos test cases.
-
-### Pasta settings/resources/resource_test_setup
-
-- **resource_test_setup**: Esta pasta é responsável por conter as keywords padrões das libraries do Robot Framework. Keywords relacionadas ao test setup.
-
-### Pasta settings/resources/resource_test_teardown
-
-- **resource_test_teardown**: Esta pasta é responsável por conter as keywords padrões das libraries do Robot Framework. Keywords relacionadas ao test teardown.
-
-## Pasta settings/variables
-
-- **Variables**: 
-    - **Variables_test_case**: Esta pasta é responsável por armazenar os locators vinculados às variáveis dos test cases.
-    - **Variables_test_setup**: Esta pasta é responsável por armazenar os locators vinculados às variáveis dos test setup.
-    - **Variables_test_teardown**: Esta pasta é responsável por armazenar os locators vinculados às variáveis dos test teardown.
-
-## Arquivo LICENSE
-
-A licença MIT permite que o software seja tratado sem restrições para o uso, modificação e distribuição.
-
-## README
-
-É possível adicionar um arquivo README a um repositório para comunicar informações importantes sobre o seu projeto. Um README, junto com uma licença de repositório, um arquivo de citação, diretrizes de contribuição e um código de conduta, comunica as expectativas do projeto e ajuda você a gerenciar contribuições.
-
-## workspace.code-workspace
-
-Arquivo com o código em JSON para exibir as keywords do Robot Framework.
 
 </details>
   
@@ -155,13 +100,6 @@ Arquivo com o código em JSON para exibir as keywords do Robot Framework.
 
 ![4](https://github.com/macielthiago89/swaglabs/assets/92893341/1a5c9d87-9c1f-4fd6-9d08-7b18132f1825)
 
-3.5 Abra o CMD do Windows e digite `python --version`. A versão exibida no CMD deve ser a mesma que você baixou no passo 02.
-
-![5](https://github.com/macielthiago89/swaglabs/assets/92893341/b84b230a-891d-4b2c-9d6d-0735c732225d)
-
-3.6 Clique em "Close" para fechar o instalador do Python.
-
-</details>
 
 # 4.Instalando o Chrome Webdriver
 
@@ -170,34 +108,6 @@ Arquivo com o código em JSON para exibir as keywords do Robot Framework.
 <summary> Clique para expandir o menu Instalando o Chrome Webdriver </summary>
 
 4.1 No navegador do Chrome, clique em "⁝" para exibir as opções do Chrome e depois em "Ajuda" > "Sobre o Google Chrome".
-
-![6](https://github.com/macielthiago89/swaglabs/assets/92893341/99d65f59-6c79-4ad6-9336-37c5c28715e1)
-
-4.2 Verifique qual a última versão do Chrome. Caso esteja desatualizado, atualize-o.
-
-![7](https://github.com/macielthiago89/swaglabs/assets/92893341/7a62ebf3-196e-423b-b95e-b22284523a87)
-
-4.3 Acesse o site [chromedriver.chromium.org/downloads](https://chromedriver.chromium.org/downloads) e baixe a versão compatível com seu Chrome.
-
-![8](https://github.com/macielthiago89/swaglabs/assets/92893341/5f2f3f39-fc86-4b19-ace0-fc131d76af90)
-
-4.4 Clique em "STABLE", esta é a versão estável do Chrome Driver.
-
-![9](https://github.com/macielthiago89/swaglabs/assets/92893341/6443dfeb-b682-4e3d-b56e-de2df1713504)
-
-![10](https://github.com/macielthiago89/swaglabs/assets/92893341/4baa4052-fb57-45a1-a8ce-70484560c827)
-
-4.5 Abra o arquivo baixado no seu navegador.
-
-![11](https://github.com/macielthiago89/swaglabs/assets/92893341/ab6ea580-e15a-43b3-8b94-d6cd2f49833f)
-
-4.6 Navegue até onde o Python foi instalado. Caso não lembre onde foi instalado, clique com o botão direito sobre o atalho do Python, abra o local do arquivo e a pasta "Scripts".
-
-![13](https://github.com/macielthiago89/swaglabs/assets/92893341/d1945088-8ec9-45db-9449-67b66ae09567)
-
-4.7 Cole o arquivo `chromedriver.exe`.
-
-![12](https://github.com/macielthiago89/swaglabs/assets/92893341/5ccea767-4b0b-41ae-9a3c-09c9b9cb08a7)
 
 ![14](https://github.com/macielthiago89/swaglabs/assets/92893341/5b93744c-c7f0-4c3b-a9bb-3b3dc47a66e8)
 
@@ -250,16 +160,6 @@ Arquivo com o código em JSON para exibir as keywords do Robot Framework.
 6.4 Abra o VS Code.
 
 6.5 Clique em "Extensions" e instale as extensões necessárias, como "Robot Framework Language Server", "Material Icon Theme", e "Dracula Official".
-
-![23](https://github.com/macielthiago89/swaglabs/assets/92893341/ca7fc48c-ef3a-4ed6-b46d-26bffb9a176c)
-
-![25](https://github.com/macielthiago89/swaglabs/assets/92893341/fa67a4b9-f194-4540-8303-1033ea962b43)
-
-![26](https://github.com/macielthiago89/swaglabs/assets/92893341/d01a2a30-be0a-469d-b702-7ea8763c5125)
-
-6.6 Crie um arquivo `.code-workspace` para configurar o ambiente de trabalho.
-
-![27](https://github.com/macielthiago89/swaglabs/assets/92893341/ee8a553b-c7b5-4816-bffb-e2fb32b30aba)
 
 6.7 Cole o seguinte código no arquivo:
 
@@ -506,215 +406,6 @@ git push -u origin main
 
 10.7 As pastas serão clonadas do repositório do GitHub e inseridas no VS Code.
 
-![34](https://github.com/macielthiago89/swaglabs/assets/92893341/21e0e139-8ca2-49fd-b6d9-c066cf747d2f)
-
-</details>
-
-# 11.Cenarios de testes para o site https://www.saucedemo.com
-
-<details>
-
-<summary> Clique para expandir o menu Cenarios de testes para o site https://www.saucedemo.com </summary>
-
-## Tela Principal
-
-- Realizar o login.
-- Visualizar a mensagem de campo obrigatório para os campos username e password.
-- Visualizar a mensagem de campo obrigatório para o campo username.
-- Visualizar a mensagem de campo obrigatório para o campo password.
-- Fechar mensagem de campo obrigatório para o campo username.
-- Fechar mensagem de campo obrigatório para o campo password.
-
-## Tela do Inventário
-
-- Clicar no botão para abrir a aba do menu.
-- Clicar no botão para fechar a aba do menu.
-- Clicar no botão "Remove item".
-- Acessar a tela "All Items".
-- Acessar a tela "About".
-- Realizar o logout.
-- Acessar a tela "Reset App State".
-- Funcionalidade de filtro por Nome (A a Z).
-- Funcionalidade de filtro por Nome (Z a A).
-- Funcionalidade de filtro por Preço (Baixo para Alto).
-- Funcionalidade de filtro por Preço (Alto para Baixo).
-- Clicar no botão "Add to Cart".
-- Acessar as informações de um produto.
-
-## Tela de um Item do Inventário
-
-- Clicar no botão "Add to Cart".
-- Clicar no botão "Back to Products".
-- Clicar no botão "Remove".
-
-## Tela do Carrinho
-
-- Clicar no botão "Continue Shopping".
-- Clicar no botão "Checkout".
-
-## Tela do Checkout - Passo um
-
-- Clicar no botão "Cancel".
-- Clicar no botão "Continue".
-- Visualizar a mensagem de campo obrigatório para os campos first name, last name e zip/postal code.
-- Visualizar a mensagem de campo obrigatório para os campos last name e zip/postal code.
-- Visualizar a mensagem de campo obrigatório para o campo zip/postal code.
-
-## Tela do Checkout - Passo dois
-
-- Clicar no botão "Cancel".
-- Clicar no botão "Finish".
-
-## Funcionalidades Adicionais
-
-- Testar a função de adicionar item ao carrinho.
-- Adicionar um item ao carrinho.
-- Clicar no botão "Remove".
-- Verificar se a tela do checkout step two exibe o item adicionado.
-- Verificar a quantidade de itens no carrinho.
-- Verificar o número de itens adicionados no carrinho.
-
-</details>
-
-# 12.Test Setup
-
-<details>
-
-<summary> Clique para expandir o menu Test Setup </summary>
-
-No Robot Framework, o termo "test setup" refere-se a uma seção especial de um caso de teste ("test case") que é usada para configurar o ambiente de teste antes que o teste real seja executado. Esta seção é uma das quatro partes principais de um caso de teste no Robot Framework, juntamente com "Settings", "Test Case" e "Teardown".
-
-A importância do "test setup" reside na capacidade de preparar o ambiente de teste de maneira consistente e confiável antes de cada execução de teste. Isso pode incluir a inicialização de aplicativos, a configuração de estados de sistema específicos, a definição de variáveis necessárias ou a configuração de outros pré-requisitos para o teste.
-
-Alguns dos principais aspectos da importância do "test setup" no Robot Framework incluem consistência, economia de tempo, redução de erros, facilidade de manutenção e reutilização. Em resumo, o "test setup" no Robot Framework desempenha um papel crucial na automação de testes, garantindo que o ambiente de teste seja configurado corretamente e de forma consistente antes da execução do teste real, resultando em testes mais eficientes e confiáveis.
-
-## Implementação do Test Setup
-
-### Configurações
-
-Na pasta `swaglabs/settings/resources/resource_test_setup`, foi criado um arquivo `resource_test_setup.robot`, nele devem constar os passos descritos no "test case" do "test setup" em forma de palavras-chave contidas nas bibliotecas que o Robot suporta.
-
-Na pasta `settings/main`, foram criados os seguintes arquivos:
-
-- `Main_resource`: Onde constam todos os caminhos dos recursos.
-- `Main_keywords`: Onde constam todas a keywords criadas pelo usuario.
-- `Main_variables`: Onde constam todos os caminhos das variáveis, criadas em forma de lista para serem aproveitadas durante todo o projeto.
-- `Main_dados`: Onde constam todos os dados fixos utilizados nos testes, como ambiente, usuário, senha, etc., definidos por variáveis.
-- `Main`: Onde foi criado um "encapsulamento" entre as pastas de configurações, criando um Page Object Model (POM), onde todas as pastas se interligam no arquivo `main.robot` que se encontra no caminho `settings/main/`.
-
-Todos os arquivos serão utilizados durante todo o projeto para inserir os caminhos das pastas que serão declaradas em todo o projeto.
-
-O Page Object Model (POM) é uma técnica de design comum em automação de testes, e sua importância no Robot Framework é significativa. O POM visa melhorar a manutenção, reutilização e escalabilidade dos casos de teste automatizados, abstraindo a estrutura e os elementos da interface do usuário (UI) em objetos reutilizáveis. Manutenção Simplificada, Reutilização de Código, Abstração de Detalhes da Interface do Usuário, Facilidade de Leitura e Manutenção de Casos de Teste e Paralelismo e Escalabilidade são algumas das principais razões pelas quais o POM é importante no contexto do Robot Framework.
-
-Em resumo, o Page Object Model desempenha um papel fundamental na automação de testes com o Robot Framework, permitindo uma estrutura mais organizada, reutilizável e de fácil manutenção para os casos de teste automatizados. Isso ajuda a melhorar a eficiência, a confiabilidade e a escalabilidade dos processos de automação de testes.
-
-### Caso de teste "test_setup"
-
-Na pasta `swaglabs/test_case_swaglabs/test_setup/`, foi criado um arquivo `test_setup.robot`, nele devem constar o caso de teste responsável pelos passos para ser executado o "test setup".
-
-Foram escritos os passos para acessar o site e realizar o login, verificando o sucesso ao logar.
-
-No caso de teste consta:
-
-- Documentation da suite: Responsável por informar ao usuário qual o objetivo do teste.
-- Metadata: São os dados que serão exibidos no log report.
-- Resource: Declarado a partir do caminho do arquivo `main.robot`.
-- Test Timeout: Definido em 2 minutos.
-- Documentation do caso de teste: Onde constam as pré-condições para serem realizados os testes.
-- Tags: Informando duas tags para execução direcionada a esse teste. Foram criadas as tags `test_setup`, com a finalidade de executar somente esse caso de teste, e a tag `regression`, onde todos os casos de teste receberão essa tag para serem executados em conjunto em uma futura regressão.
-
-### Comando para executar o "test_setup"
-
-```bash
-
-<Caminho do arquivo> robot .\test_setup.robot
-
-```
-
-Ao decorrer das escritas o test setup será transformada em Keyword, um dos beneficios do Robot framework é você poder criar sua propria keyword.
-
-</details>
-
-# 13.Test Teardown
-
-<details>
-
-<summary> Clique para expandir o menu Test Teardown </summary>
-
-O "test teardown" no Robot Framework é uma funcionalidade que permite a execução de ações específicas após a conclusão de um caso de teste. Basicamente, é uma seção reservada onde você pode definir tarefas que precisam ser executadas independentemente do resultado do teste, seja ele passando ou falhando.
-
-A importância do "test teardown" reside em algumas áreas chave:
-
-- **Limpeza de ambiente**: Garantir que o ambiente seja deixado em um estado consistente após a execução do teste.
-- **Liberação de recursos**: Garantir que recursos alocados durante a execução do teste sejam liberados, evitando vazamentos de recursos.
-- **Relatórios e Logging**: Registrar informações adicionais sobre a execução do teste para entender o contexto, mesmo em caso de falha.
-- **Configuração para o próximo teste**: Preparar o ambiente para o próximo teste revertendo configurações ou restaurando o estado inicial do sistema.
-
-Em resumo, o "test teardown" é uma parte crucial da estrutura de automação de teste do Robot Framework, pois permite a execução de ações importantes antes de finalizar a execução de um caso de teste, garantindo assim a consistência e a confiabilidade dos testes automatizados.
-
-## Implementação do Test Teardown
-
-### Configurações
-
-Na pasta `swaglabs/settings/resources/resource_test_teardown`, foi criado um arquivo `resource_test_teardown.robot`. Nele, devem constar as keywords a serem executadas no test teardown.
-
-O resource do test teardown foi declarado no arquivo `main_resource.robot`.
-
-Ao escrever as variáveis, foi introduzida a keyword `Capture Page Screenshot`, que contém 2 argumentos que serão declarados em cada caso de teste, facilitando a identificação das evidências de acordo com o caso de teste.
-
-Todos os arquivos serão utilizados durante todo o projeto para inserir os caminhos das pastas que serão declaradas em todo o projeto.
-
-</details>
-
-# 14.Escrita dos Casos de Teste
-
-<details>
-
-<summary> Clique para expandir o menu Escrita dos Casos de Teste </summary>
-
-O Robot Framework é uma estrutura de automação de teste de código aberto amplamente utilizada para escrever casos de teste e automatizar testes em uma variedade de aplicativos e sistemas. Aqui estão algumas das principais razões pelas quais é importante utilizar o Robot Framework na escrita de casos de teste:
-
-- **Facilidade de uso:** O Robot Framework utiliza uma sintaxe fácil de entender e uma estrutura de arquivo tabular que torna a escrita e manutenção dos casos de teste mais acessível para profissionais de teste, desenvolvedores e outros membros da equipe.
-
-- **Reutilização de código:** Ele suporta a reutilização de bibliotecas de código, permitindo que os testadores escrevam bibliotecas personalizadas ou reutilizem bibliotecas existentes para diferentes projetos e cenários de teste. Isso economiza tempo e esforço, uma vez que partes comuns de testes podem ser reaproveitadas facilmente.
-
-- **Integração com diversas tecnologias:** O Robot Framework possui uma vasta gama de bibliotecas e plug-ins que permitem a integração com diferentes tecnologias e ferramentas de automação, como Selenium para testes web, Appium para testes mobile, e muitos outros. Isso oferece flexibilidade para testar uma variedade de sistemas e aplicativos.
-
-- **Suporte à automação de teste de aceitação:** O Robot Framework é altamente adequado para automação de teste de aceitação, permitindo que os testadores escrevam casos de teste que validem se um sistema atende aos requisitos de negócio e comportamento esperado.
-
-- **Geração de relatórios e logs:** Ele gera relatórios e logs detalhados após a execução dos testes, fornecendo uma visão clara sobre o resultado dos testes, incluindo sucesso, falhas e erros. Isso ajuda na identificação e resolução rápida de problemas.
-
-- **Suporte à abordagem de desenvolvimento ágil:** O Robot Framework é flexível e pode ser facilmente integrado em processos de desenvolvimento ágil, permitindo que os testes sejam automatizados e executados continuamente durante o ciclo de desenvolvimento.
-
-- **Comunidade ativa e suporte:** O Robot Framework possui uma comunidade ativa de usuários e desenvolvedores, o que significa que há uma abundância de recursos, documentação e suporte disponíveis para ajudar os usuários a resolver problemas e aprender mais sobre a estrutura.
-
-Em resumo, a utilização do Robot Framework na escrita de casos de teste oferece uma série de benefícios, incluindo facilidade de uso, reutilização de código, integração com diversas tecnologias, suporte à automação de teste de aceitação, geração de relatórios detalhados e suporte à abordagem ágil de desenvolvimento. Isso faz com que seja uma escolha valiosa para equipes de teste que buscam aumentar a eficiência e a qualidade de seus processos de teste de software.
-
-## Implementação dos Casos de Teste
-
-Foi criada uma pasta chamada `test_case_swaglabs` com o nome `test_case_swaglabs`. Dentro desta pasta, os casos de teste foram divididos por tela, e dentro dessas pastas de telas constam os casos de teste iniciados por `CT` e sua numeração em ordem crescente de acordo com os cenários criados e citados no tópico 11 deste README.
-
-Cada caso de teste receberá na sessão `TAG` sua tag de regressão e `CT` com seu número do caso de teste. Também receberão no `test teardown` suas variáveis com o nome da tela e `CT` com seu número do caso de teste, para serem organizados quando a keyword `capture page screenshot` for usada, facilitando o entendimento das evidências. No caso de teste também constam:
-
-- `Documentation da suite:` Responsável por informar ao usuário qual o objetivo do teste.
-- `Metadata:` São os dados que serão exibidos no log report.
-- `Resource:` Declarado a partir do caminho do arquivo `main.robot`.
-- `Test Timeout:` Definido em 2 minutos.
-- `Documentation do caso de teste:` Onde constam as pré-condições para serem realizados os testes.
-- `Test setup:` Criado e transformado em keyword onde é o primeiro arquivo a ser executado no caso de teste.
-- `Test Teardown:` Criado para registrar as evidências e fechar o browser.
-
-Foram criados arquivos separados e colocados nas pastas de suas respectivas funções:
-- Armazenamentos das variáveis ficam na pasta `variables_testcase.robot`.
-- Armazenamentos das resources ficam na pasta `resource_testcase.robot`.
-- Todos os arquivos são "Encapsulados" e referenciados no arquivo `main.robot`.
-
-## Comando para Executar o Caso de Teste:
-
-`<Caminho do arquivo> robot –d .log .\CT<numero do caso de teste>Titulo do caso de teste.robot`
-
-### Vídeo de implementação:
-[Clique aqui para visualizar o vídeo do Test Setup](https://drive.google.com/file/d/1BHq4NNcTYvJ1inFQqlIJ5XRscIPv_wq0/view?usp=drive_link)
 
 </details>
 
@@ -725,4 +416,4 @@ Autor
 </h1>
 
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/92893341?s=400&u=0989f8aaeafda3859f2027f9505d0a2905697e91&v=4" width=115><br><sub>Thiago Andrade</sub>](https://github.com/macielthiago89/) |
-| :---: | 
+

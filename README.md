@@ -720,7 +720,7 @@ Foram criados arquivos separados e colocados nas pastas de suas respectivas fun�
 `<Caminho do arquivo> robot –d .log .\CT<numero do caso de teste>Titulo do caso de teste.robot`
 
 ### Vídeo de implementação:
-[Clique aqui para visualizar o vídeo do 1º caso de teste]
+[Clique aqui para visualizar o vídeo do 1º caso de teste](https://drive.google.com/file/d/1Ak-cMXnwvzXvsVwF35kE3092CfeuCil7/view?usp=sharing)
 
 </details>
 

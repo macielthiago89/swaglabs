@@ -328,6 +328,26 @@ Se mesmo após a instalação do Python o programa não reconheceu as variáveis
 
 ![31](https://github.com/macielthiago89/swaglabs/assets/92893341/8ee4ed3a-92ff-4dbd-b5a4-908bceb25c74)
 
+## Conseguir locators
+
+### Sites de ajuda para encontrar Xpath manualmente:
+
+[Clique aqui para acessar o site devhints](https://devhints.io/xpath)
+
+[Clique aqui para acessar o site htmlcheatsheet](https://htmlcheatsheet.com/css/)
+
+### Extensões para encontrar os locators:
+
+[Clique aqui para instalar a extensão CSS Selector](https://chromewebstore.google.com/detail/css-selector-helper/gddgceinofapfodcekopkjjelkbjodin)
+
+[Clique aqui para instalar a extensão True Path](https://chromewebstore.google.com/detail/truepath/mgjhkhhbkkldiihlajcnlfchfcmhipmn?hl=pt-BR). 
+
+### Robot Framework User Guide
+
+Guia do usuario do robot framework
+
+[Clique aqui para acessar o Robot Framework User Guide](https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html)
+
 </details>
 
 # 8.Instalando Git
@@ -528,13 +548,13 @@ git push -u origin main
 
 ## Tela do Inventário
 
-- Clicar no botão para abrir a aba do menu.✅
-- Clicar no botão para fechar a aba do menu.
+- ✅ Clicar no botão para abrir a aba do menu.
+- ✅ Clicar no botão para fechar a aba do menu.
+- ✅ Acessar a tela "All Items".
+- ✅ Acessar a tela "About".
+- ✅ Realizar o logout.
+- ✅ Acessar a tela "Reset App State".
 - Clicar no botão "Remove item".
-- Acessar a tela "All Items".
-- Acessar a tela "About".
-- Realizar o logout.
-- Acessar a tela "Reset App State".
 - Funcionalidade de filtro por Nome (A a Z).
 - Funcionalidade de filtro por Nome (Z a A).
 - Funcionalidade de filtro por Preço (Baixo para Alto).

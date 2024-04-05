@@ -49,6 +49,7 @@ Estou sempre em busca de novas oportunidades de aprendizado e colaboração, ent
 12. [Test Setup](#12test-setup)
 13. [Test Teardown](#13test-teardown)
 14. [Escrita dos Casos de Teste](#14escrita-dos-casos-de-teste)
+15. [Vídeos das escritas e execuções](#15v%C3%ADdeos-das-escritas-e-execu%C3%A7%C3%B5es)
 
     
 # 1.Objetivo
@@ -548,12 +549,12 @@ git push -u origin main
 
 ## Tela do Inventário
 
-- ✅ Clicar no botão para abrir a aba do menu.
-- ✅ Clicar no botão para fechar a aba do menu.
-- ✅ Acessar a tela "All Items".
-- ✅ Acessar a tela "About".
-- ✅ Realizar o logout.
-- ✅ Acessar a tela "Reset App State".
+- ✅ CT0001 - Clicar no botão para abrir a aba do menu.
+- ✅ CT0002 - Clicar no botão para fechar a aba do menu.
+- ✅ CT0003 - Acessar a tela "All Items".
+- ✅ CT0004 - Acessar a tela "About".
+- ✅ CT0005 - Realizar o logout.
+- ✅ CT0006 - Acessar a tela "Reset App State".
 - Clicar no botão "Remove item".
 - Funcionalidade de filtro por Nome (A a Z).
 - Funcionalidade de filtro por Nome (Z a A).
@@ -741,6 +742,18 @@ Foram criados arquivos separados e colocados nas pastas de suas respectivas fun�
 
 ### Vídeo de implementação:
 [Clique aqui para visualizar o vídeo do 1º caso de teste](https://drive.google.com/file/d/1Ak-cMXnwvzXvsVwF35kE3092CfeuCil7/view?usp=sharing)
+
+</details>
+
+# 15.Vídeos das escritas e execuções
+
+<details>
+
+<summary> Clique para expandir o menu Vídeos das escritas e execuções </summary>
+
+Vídeo da escrita e execução dos casos de teste: 
+
+[Clique aqui para visualizar o vídeo das escritas e execuções: CT0002 - CT0003 - CT0004 - CT0005 - CT0006](https://drive.google.com/file/d/1IAgKrxLDIHgCH9Wep5nUKGLen536Cx7p/view?usp=sharing)
 
 </details>
 

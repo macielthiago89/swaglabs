@@ -8,14 +8,14 @@ Resource    ../../../../swaglabs/settings/main/main.robot
 Clique no botão menu
     Click Element    ${VARIABLES_TEST_CASE.BTN_MENU}
 Verificar as opções do botão menu "${OPCAO_MENU}"
-    Set Selenium Speed    0.5s
+    Set Selenium Speed    0.2s
     ${VERIFICAR_MENU}    Replace String    ${VARIABLES_TEST_CASE.MENU_OPCAO_MENU}    $$     ${OPCAO_MENU}   
     Wait Until Element Is Visible    ${VERIFICAR_MENU}    timeout=10s
     Set Selenium Speed    0s
 Clique no "X"
     Click Element    ${VARIABLES_TEST_CASE.BTN_FECHAR} 
 Verificar o fechamento das opções do menu "${OPCAO_MENU}" 
-    Set Selenium Speed    0.5s
+    Set Selenium Speed    0.2s
     ${VERIFICAR_MENU}    Replace String    ${VARIABLES_TEST_CASE.MENU_OPCAO_MENU}    $$     ${OPCAO_MENU}  
     Element Should Not Be Visible    ${VARIABLES_TEST_CASE.MENU_OPCAO_MENU}
     Set Selenium Speed    0s

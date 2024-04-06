@@ -86,7 +86,7 @@ Ao utilizar o Robot Framework, temos muita facilidade na especificação do cód
 
 Em cada pasta dos grupos de funcionalidades também constam as pastas das evidências, renomeadas através do Robot, de acordo com o caso de teste.
 
-## [Pasta main]()
+## [Pasta main](https://github.com/macielthiago89/swaglabs/tree/CT02-03-04-05-06.01/swag_labs/main)
 
 - **Main**: Esta pasta é responsável por organizar e relacionar as pastas pais de settings através de um tipo de "encapsulamento".
 - **Main_dados**: Esta pasta é responsável por conter os dados que serão utilizados com frequência na escrita e execução dos testes, como os dados de login, nome da empresa e ambiente.
@@ -94,11 +94,11 @@ Em cada pasta dos grupos de funcionalidades também constam as pastas das evidê
 - **Main_resources**: Esta pasta contém todos os caminhos dos resources das keywords criadas para escrita e execução dos casos de testes.
 - **Main_variables**: Esta pasta contém todos os caminhos das variáveis inseridas nos locators das keywords criadas para escrita e execução dos casos de testes.
 
-## [Pasta Test Case Swag Labs]()
+## [Pasta Test Case Swag Labs](https://github.com/macielthiago89/swaglabs/tree/CT02-03-04-05-06.01/swag_labs/test_case_swaglabs)
 
 Nesta pasta é onde se encontram os Test Cases, pastas onde os casos de teste serão escritos para serem executados através das keywords. As pastas são divididas por grupos de funcionalidades de cada tela do site, que aos poucos iremos cobrir todas as funcionalidades encontradas nas telas.
 
-## [Pasta Resources]()
+## [Pasta Resources](https://github.com/macielthiago89/swaglabs/tree/CT02-03-04-05-06.01/swag_labs/resources)
 
 ### Pasta resources/resources_casos_de_teste
 - **resources_casos_de_teste**: Esta pasta é responsável por conter as keywords padrões das libraries do Robot Framework. Keywords relacionadas aos steps dos test cases.
@@ -111,7 +111,7 @@ Nesta pasta é onde se encontram os Test Cases, pastas onde os casos de teste se
 
 - **resource_test_teardown**: Esta pasta é responsável por conter as keywords padrões das libraries do Robot Framework. Keywords relacionadas ao test teardown.
 
-## [Pasta variables]()
+## [Pasta variables](https://github.com/macielthiago89/swaglabs/tree/CT02-03-04-05-06.01/swag_labs/variables)
 
 - **Variables**: 
     - **Variables_test_case**: Esta pasta é responsável por armazenar os locators vinculados às variáveis dos test cases.

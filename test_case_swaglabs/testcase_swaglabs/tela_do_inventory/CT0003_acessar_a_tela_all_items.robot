@@ -16,7 +16,7 @@ Verificar o acesso a tela all items
     ...    Pré condição:
     ...    
     ...    Usuario  e senha cadastrado
-    [Tags]    regression    CT0003
+    [Tags]    regression    CT0003    inventory
 
     Clique no botão menu
     Verificar as opções do botão menu "All Items"

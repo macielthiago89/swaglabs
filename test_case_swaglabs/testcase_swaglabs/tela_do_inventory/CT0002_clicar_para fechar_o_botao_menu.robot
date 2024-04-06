@@ -16,7 +16,7 @@ Verificar a funcionalidade de fechar o menu na tela inventory
     ...    Pré condição:
     ...    
     ...    Usuario  e senha cadastrado
-    [Tags]    regression    CT0002
+    [Tags]    regression    CT0002    inventory
     Clique no botão menu
     Verificar as opções do botão menu "All Items"
     Verificar as opções do botão menu "About"

@@ -16,7 +16,7 @@ Verificar o acesso a tela Reset App State
     ...    Pré condição:
     ...    
     ...    Usuario  e senha cadastrado
-    [Tags]    regression    CT0006
+    [Tags]    regression    CT0006    inventory
 
     Clique no botão menu
     Verificar as opções do botão menu "All Items"

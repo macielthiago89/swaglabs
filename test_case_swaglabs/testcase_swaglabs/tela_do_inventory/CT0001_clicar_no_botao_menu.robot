@@ -16,7 +16,7 @@ Verificar a funcionalidade do botão menu na tela inventory
     ...    Pré condição:
     ...    
     ...    Usuario  e senha cadastrado
-    [Tags]    regression    CT0001
+    [Tags]    regression    CT0001    inventory
 
     Clique no botão menu 
     Verificar as opções do botão menu "All Items"

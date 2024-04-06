@@ -86,7 +86,7 @@ Ao utilizar o Robot Framework, temos muita facilidade na especificação do cód
 
 Em cada pasta dos grupos de funcionalidades também constam as pastas das evidências, renomeadas através do Robot, de acordo com o caso de teste.
 
-## [Pasta main](https://github.com/macielthiago89/swaglabs/tree/CT02-03-04-05-06.01/swag_labs/main)
+## [Pasta main](https://github.com/macielthiago89/swaglabs/tree/CT02-03-04-05-06.01/swag_labs/main) ⬅️ Clique aqui para acessar o repositório
 
 - **Main**: Esta pasta é responsável por organizar e relacionar as pastas pais de settings através de um tipo de "encapsulamento".
 - **Main_dados**: Esta pasta é responsável por conter os dados que serão utilizados com frequência na escrita e execução dos testes, como os dados de login, nome da empresa e ambiente.
@@ -94,11 +94,11 @@ Em cada pasta dos grupos de funcionalidades também constam as pastas das evidê
 - **Main_resources**: Esta pasta contém todos os caminhos dos resources das keywords criadas para escrita e execução dos casos de testes.
 - **Main_variables**: Esta pasta contém todos os caminhos das variáveis inseridas nos locators das keywords criadas para escrita e execução dos casos de testes.
 
-## [Pasta Test Case Swag Labs](https://github.com/macielthiago89/swaglabs/tree/CT02-03-04-05-06.01/swag_labs/test_case_swaglabs)
+## [Pasta Test Case Swag Labs](https://github.com/macielthiago89/swaglabs/tree/CT02-03-04-05-06.01/swag_labs/test_case_swaglabs) ⬅️ Clique aqui para acessar o repositório
 
 Nesta pasta é onde se encontram os Test Cases, pastas onde os casos de teste serão escritos para serem executados através das keywords. As pastas são divididas por grupos de funcionalidades de cada tela do site, que aos poucos iremos cobrir todas as funcionalidades encontradas nas telas.
 
-## [Pasta Resources](https://github.com/macielthiago89/swaglabs/tree/CT02-03-04-05-06.01/swag_labs/resources)
+## [Pasta Resources](https://github.com/macielthiago89/swaglabs/tree/CT02-03-04-05-06.01/swag_labs/resources) ⬅️ Clique aqui para acessar o repositório
 
 ### Pasta resources/resources_casos_de_teste
 - **resources_casos_de_teste**: Esta pasta é responsável por conter as keywords padrões das libraries do Robot Framework. Keywords relacionadas aos steps dos test cases.
@@ -111,18 +111,18 @@ Nesta pasta é onde se encontram os Test Cases, pastas onde os casos de teste se
 
 - **resource_test_teardown**: Esta pasta é responsável por conter as keywords padrões das libraries do Robot Framework. Keywords relacionadas ao test teardown.
 
-## [Pasta variables](https://github.com/macielthiago89/swaglabs/tree/CT02-03-04-05-06.01/swag_labs/variables)
+## [Pasta variables](https://github.com/macielthiago89/swaglabs/tree/CT02-03-04-05-06.01/swag_labs/variables) ⬅️ Clique aqui para acessar o repositório
 
 - **Variables**: 
     - **Variables_test_case**: Esta pasta é responsável por armazenar os locators vinculados às variáveis dos test cases.
     - **Variables_test_setup**: Esta pasta é responsável por armazenar os locators vinculados às variáveis dos test setup.
     - **Variables_test_teardown**: Esta pasta é responsável por armazenar os locators vinculados às variáveis dos test teardown.
 
-## [Arquivo LICENSE](https://github.com/macielthiago89/swaglabs/blob/main/LICENSE)
+## [Arquivo LICENSE](https://github.com/macielthiago89/swaglabs/blob/main/LICENSE) ⬅️ Clique aqui para acessar o repositório
 
 A licença MIT permite que o software seja tratado sem restrições para o uso, modificação e distribuição.
 
-## [README](https://github.com/macielthiago89/swaglabs/blob/main/README.md)
+## [README](https://github.com/macielthiago89/swaglabs/blob/main/README.md) ⬅️ Clique aqui para acessar o repositório
 
 É possível adicionar um arquivo README a um repositório para comunicar informações importantes sobre o seu projeto. Um README, junto com uma licença de repositório, um arquivo de citação, diretrizes de contribuição e um código de conduta, comunica as expectativas do projeto e ajuda você a gerenciar contribuições.
 

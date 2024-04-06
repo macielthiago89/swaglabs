@@ -3,7 +3,7 @@ Documentation    Este caso de teste tem como objetivo verificar o acesso a tela 
 
 Metadata    Ambiente     ${AMBIENTE}
 
-Resource    ../../../../swaglabs/settings/main/main.robot
+Resource    ../../../../swag_labs/main/main.robot
 
 Test Setup    Realizar test setup
 Test Teardown    Realizar o test teardown    INVENTORY    CT0006

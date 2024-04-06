@@ -2,7 +2,7 @@
 Library    SeleniumLibrary
 Library    String
 
-Resource    ../../../../swaglabs/settings/main/main.robot
+Resource    ../../../swag_labs/main/main.robot
 
 *** Keywords ***
 Clique no botão menu

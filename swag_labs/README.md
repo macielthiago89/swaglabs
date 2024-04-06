@@ -28,12 +28,12 @@ Estou sempre em busca de novas oportunidades de aprendizado e colaboração, ent
    * [Execução dos Testes com VS Code](#execu%C3%A7%C3%A3o-dos-testes-com-vs-code)
    * [Gerenciamento de Código com GitHub](#gerenciamento-de-c%C3%B3digo-com-github)
 2. [Organização das Pastas](#2organiza%C3%A7%C3%A3o-das-pastas)
+   * [Pasta main](#pasta-main)
    * [Pasta Test Case Swag Labs](#pasta-test-case-swag-labs)
-   * [Pasta Settings](#pasta-settings)
-   * [Pasta settings/variables](#pasta-settingsvariables)
-   * [Arquivo LICENSE](#readme)
+   * [Pasta Resources](#pasta-resources)
+   * [Pasta variables](#pasta-variables)
+   * [Arquivo LICENSE](#arquivo-license)
    * [README](#readme)
-   * [workspace.code-workspace](#workspacecode-workspace)
 3. [Instalando o Python](#3instalando-o-python)
 4. [Instalando o Chrome Webdriver](#4instalando-o-chrome-webdriver)
 5. [Instalando o Robot Framework](#5instalando-o-robot-framework)
@@ -84,17 +84,9 @@ Este repositório contém os scripts de automação, casos de teste e recursos n
 
 Ao utilizar o Robot Framework, temos muita facilidade na especificação do código, pois este trabalha com abordagem keyword-driven, reduzindo quase completamente a necessidade de implementar uma linguagem de programação. Porém, mesmo com esta facilidade, precisamos organizar as keywords, locators, variáveis e test cases de modo a facilitar o trabalho em equipe e a manutenção do código.
 
-## Pasta Test Case Swag Labs
-
-Nesta pasta é onde se encontram os Test Cases, pastas onde os casos de teste serão escritos para serem executados através das keywords. As pastas são divididas por grupos de funcionalidades de cada tela do site, que aos poucos iremos cobrir todas as funcionalidades encontradas nas telas.
-
 Em cada pasta dos grupos de funcionalidades também constam as pastas das evidências, renomeadas através do Robot, de acordo com o caso de teste.
 
-## Pasta Settings
-
-As pastas estão divididas por resources e variables. Utilizando o Padrão de Objeto de Página (POM), este padrão nos permite organizar as keywords, locators e variáveis.
-
-### Pasta settings/main
+## [Pasta main]()
 
 - **Main**: Esta pasta é responsável por organizar e relacionar as pastas pais de settings através de um tipo de "encapsulamento".
 - **Main_dados**: Esta pasta é responsável por conter os dados que serão utilizados com frequência na escrita e execução dos testes, como os dados de login, nome da empresa e ambiente.
@@ -102,36 +94,37 @@ As pastas estão divididas por resources e variables. Utilizando o Padrão de Ob
 - **Main_resources**: Esta pasta contém todos os caminhos dos resources das keywords criadas para escrita e execução dos casos de testes.
 - **Main_variables**: Esta pasta contém todos os caminhos das variáveis inseridas nos locators das keywords criadas para escrita e execução dos casos de testes.
 
-### Pasta settings/resources/resources_casos_de_teste
+## [Pasta Test Case Swag Labs]()
 
+Nesta pasta é onde se encontram os Test Cases, pastas onde os casos de teste serão escritos para serem executados através das keywords. As pastas são divididas por grupos de funcionalidades de cada tela do site, que aos poucos iremos cobrir todas as funcionalidades encontradas nas telas.
+
+## [Pasta Resources]()
+
+### Pasta resources/resources_casos_de_teste
 - **resources_casos_de_teste**: Esta pasta é responsável por conter as keywords padrões das libraries do Robot Framework. Keywords relacionadas aos steps dos test cases.
 
-### Pasta settings/resources/resource_test_setup
+### Pasta resources/resource_test_setup
 
 - **resource_test_setup**: Esta pasta é responsável por conter as keywords padrões das libraries do Robot Framework. Keywords relacionadas ao test setup.
 
-### Pasta settings/resources/resource_test_teardown
+### Pasta resources/resource_test_teardown
 
 - **resource_test_teardown**: Esta pasta é responsável por conter as keywords padrões das libraries do Robot Framework. Keywords relacionadas ao test teardown.
 
-## Pasta settings/variables
+## [Pasta variables]()
 
 - **Variables**: 
     - **Variables_test_case**: Esta pasta é responsável por armazenar os locators vinculados às variáveis dos test cases.
     - **Variables_test_setup**: Esta pasta é responsável por armazenar os locators vinculados às variáveis dos test setup.
     - **Variables_test_teardown**: Esta pasta é responsável por armazenar os locators vinculados às variáveis dos test teardown.
 
-## Arquivo LICENSE
+## [Arquivo LICENSE](https://github.com/macielthiago89/swaglabs/blob/main/LICENSE)
 
 A licença MIT permite que o software seja tratado sem restrições para o uso, modificação e distribuição.
 
-## README
+## [README](https://github.com/macielthiago89/swaglabs/blob/main/README.md)
 
 É possível adicionar um arquivo README a um repositório para comunicar informações importantes sobre o seu projeto. Um README, junto com uma licença de repositório, um arquivo de citação, diretrizes de contribuição e um código de conduta, comunica as expectativas do projeto e ajuda você a gerenciar contribuições.
-
-## workspace.code-workspace
-
-Arquivo com o código em JSON para exibir as keywords do Robot Framework.
 
 </details>
   

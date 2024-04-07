@@ -561,6 +561,8 @@ git push -u origin main
 
 <summary> Clique para expandir o menu Cenarios de testes para o site https://www.saucedemo.com </summary>
 
+## [Casos de teste](https://github.com/macielthiago89/swaglabs/tree/CT02-03-04-05-06.01/swag_labs/test_case_swaglabs) ⬅️ Clique aqui para acessar o repositório
+
 ## Tela Principal
 
 - Realizar o login.
@@ -625,7 +627,9 @@ git push -u origin main
 
 <details>
 
-<summary> Clique para expandir o menu Test Setup </summary>
+<summary> Clique para expandir o menu Test Setup </summary> 
+
+## [Test setup](https://github.com/macielthiago89/swaglabs/tree/CT02-03-04-05-06.01/swag_labs/test_case_swaglabs/test_setup) ⬅️ Clique aqui para acessar o repositório
 
 No Robot Framework, o termo "test setup" refere-se a uma seção especial de um caso de teste ("test case") que é usada para configurar o ambiente de teste antes que o teste real seja executado. Esta seção é uma das quatro partes principais de um caso de teste no Robot Framework, juntamente com "Settings", "Test Case" e "Teardown".
 
@@ -689,6 +693,8 @@ Ao decorrer das escritas o test setup será transformada em Keyword, um dos bene
 
 <summary> Clique para expandir o menu Test Teardown </summary>
 
+## [Test Teardown](https://github.com/macielthiago89/swaglabs/tree/CT02-03-04-05-06.01/swag_labs/resources/resource_test_teardown) ⬅️ Clique aqui para acessar o repositório
+
 O "test teardown" no Robot Framework é uma funcionalidade que permite a execução de ações específicas após a conclusão de um caso de teste. Basicamente, é uma seção reservada onde você pode definir tarefas que precisam ser executadas independentemente do resultado do teste, seja ele passando ou falhando.
 
 A importância do "test teardown" reside em algumas áreas chave:
@@ -721,6 +727,8 @@ Todos os arquivos serão utilizados durante todo o projeto para inserir os camin
 <details>
 
 <summary> Clique para expandir o menu Escrita dos Casos de Teste </summary>
+
+## [Casos de teste](https://github.com/macielthiago89/swaglabs/tree/CT02-03-04-05-06.01/swag_labs/test_case_swaglabs) ⬅️ Clique aqui para acessar o repositório
 
 O Robot Framework é uma estrutura de automação de teste de código aberto amplamente utilizada para escrever casos de teste e automatizar testes em uma variedade de aplicativos e sistemas. Aqui estão algumas das principais razões pelas quais é importante utilizar o Robot Framework na escrita de casos de teste:
 

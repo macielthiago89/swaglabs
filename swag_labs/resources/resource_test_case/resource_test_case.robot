@@ -16,7 +16,7 @@ Clique no "X"
     Click Element    ${VARIABLES_TEST_CASE.BTN_FECHAR} 
 Verificar o fechamento do menu de opções 
     Set Selenium Speed    0.2s
-    Wait Until Element Is Visible    //div[@class='bm-menu-wrap'][contains(@aria-hidden,'true')]    timeout=10s
+    Wait Until Element Is Visible    ${VARIABLES_TEST_CASE.MENU_CLOSE}        timeout=10s
     Set Selenium Speed    0s
 Clique no botão "${OPCAO_MENU}"
     ${VERIFICAR_MENU}    Replace String    ${VARIABLES_TEST_CASE.BTN_OPCAO_MENU}    $$     ${OPCAO_MENU}  

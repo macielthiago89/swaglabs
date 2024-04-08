@@ -4,7 +4,7 @@
 ...            MENU_OPCAO_MENU=//a[contains(@id,'link')][@class='bm-item menu-item'][contains(.,'$$')]
 ...            BTN_FECHAR=//button[contains(@id,'react-burger-cross-btn')]
 ...            BTN_OPCAO_MENU=//a[contains(@id,'link')][@class='bm-item menu-item'][contains(.,'$$')]
-...            OPCAO_MENU_CLOSE=//a[contains(@id,'link')][contains(@tabindex,'-1')][@class='bm-item menu-item'][contains(.,'$$')]
+...            MENU_CLOSE=//div[@class='bm-menu-wrap'][contains(@aria-hidden,'true')]
 ...            BTN_ADD_SAUCE_LABS_BACKPACK=//button[contains(@id,'add-to-cart-sauce-labs-backpack')]
 ...            BTN_SHOPPING_CART=//a[contains(@class,'shopping_cart_link')]
 ...            TITLE_PRODUCT_CART=//div[@class='inventory_item_name'][contains(.,'$$')]

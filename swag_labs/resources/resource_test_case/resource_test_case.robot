@@ -41,7 +41,7 @@ Clique no botão Continue Shopping
 Verificar a pagina inventory
     Title Should Be    Swag Labs
 Clique remove
-    Click Element    ${VARIABLES_TEST_CASE.BTN_REMOVE_SAUCE_LABS_BACKPAK}
+    Click Element    ${VARIABLES_TEST_CASE.BTN_REMOVE_SAUCE_LABS_BACKPACK}
 Clique no produto "${TITLE_PRODUCT}"
     ${VERIFY_TITLE_PRODUCT}    Replace String    ${VARIABLES_TEST_CASE.TITLE_PRODUCT}    $$     ${TITLE_PRODUCT}
     Click Element    ${VERIFY_TITLE_PRODUCT}

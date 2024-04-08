@@ -9,6 +9,6 @@
 ...            BTN_SHOPPING_CART=//a[contains(@class,'shopping_cart_link')]
 ...            TITLE_PRODUCT_CART=//div[@class='inventory_item_name'][contains(.,'$$')]
 ...            BTN_CONTINUE_SHOPPING=//button[contains(@id,'continue-shopping')]
-...            BTN_REMOVE_SAUCE_LABS_BACKPAK=//button[contains(@id,'remove-sauce-labs-backpack')]
+...            BTN_REMOVE_SAUCE_LABS_BACKPACK=//button[contains(@id,'remove-sauce-labs-backpack')]
 ...            TITLE_PRODUCT=//div[@class='inventory_item_name '][contains(.,'$$')]
 ...            TITLE_INFO_PRODUCT=//div[@class='inventory_details_name large_size'][contains(.,'$$')]

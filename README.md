@@ -129,11 +129,11 @@ A licença MIT permite que o software seja tratado sem restrições para o uso, 
 
 README consta todas as informações referente ao projeto como objetivo, arquitetura das pasta, instalações...
 
+É possível adicionar um arquivo README a um repositório para comunicar informações importantes sobre o seu projeto. Um README, junto com uma licença de repositório, um arquivo de citação, diretrizes de contribuição e um código de conduta, comunica as expectativas do projeto e ajuda você a gerenciar contribuições.
+
 ## [requirements.txt](https://github.com/macielthiago89/swaglabs/blob/CT02-03-04-05-06.01/swag_labs/requirements.txt) ⬅️ Clique aqui para acessar o repositório
 
 Neste arquivo consta todas as dependência necessarias para poder instalar e rodar os scripts .robot
-
-É possível adicionar um arquivo README a um repositório para comunicar informações importantes sobre o seu projeto. Um README, junto com uma licença de repositório, um arquivo de citação, diretrizes de contribuição e um código de conduta, comunica as expectativas do projeto e ajuda você a gerenciar contribuições.
 
 </details>
   

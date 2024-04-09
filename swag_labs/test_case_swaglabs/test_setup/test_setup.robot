@@ -1,10 +1,21 @@
 *** Settings ***
 Library    SeleniumLibrary
-Resource    ../../../swaglabs/settings/main/main.robot
 
+Documentation    Este caso de teste tem como objetivo de realizar o login no site do Swag Labs
 
-*** Keywords ***
+Metadata        Ambiente     ${AMBIENTE}
+
+Resource    ../../../swag_labs/main/main.robot
+
+Test Timeout    2 minutes
+
+*** Test Cases ***
 Realizar test setup
+    [Documentation]
+    ...    Pré condição:
+    ...    
+    ...    Usuario  e senha cadastrado
+    [Tags]    test_setup    regression
     Acessar o site "Swag Labs"
     Inserir no campo "Username" o username do usuario     ${USERNAME}    #Para alterar o username acessar o caminho swaglabs/settings/main/main_dados.robot
     Inserir no campo "Password" a senha do usuario    ${PASSWORD}     #Para alterar o password acessar o caminho swaglabs/settings/main/main_dados.robot

@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-Resource    ../../../../swaglabs/settings/main/main.robot
+Resource    ../../../swag_labs/main/main.robot
 
 
 *** Keywords ***

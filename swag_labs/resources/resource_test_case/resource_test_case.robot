@@ -75,6 +75,8 @@ Ordenar a lista alfabeticamente Z to A
     Sort List    ${ITEMS_LIST}    #Ordena alfabeticamente a lista armazenada na variavel ${ITEMS_LIST}
     Reverse List    ${ITEMS_LIST}    #Inverte a ordenação alfabetica da lista armazenada na variavel ${ITEMS_LIST}
     Log List    ${ITEMS_LIST}    #Exibe a lista criada no console após ordenada invertida
+Click botão "Back to products"    #Keyword responsavel por clicar no botão back to products e retornar a pagina inventory
+    Click Element    ${VARIABLES_TEST_CASE.BTN_BACK_TO_PRODUCTS}
     
    
         

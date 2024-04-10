@@ -14,7 +14,8 @@
 ...            TITLE_INFO_PRODUCT=//div[@class='inventory_details_name large_size'][contains(.,'$$')]    #Verificar a informação do produto
 ...            ORDER_A_TO_Z=//*[@id="header_container"]/div[2]/div/span/select/option[1]    #Botão ordenar a to Z
 ...            ORDER_Z_TO_A=//*[@id="header_container"]/div[2]/div/span/select/option[2]    #Botão ordenar Z to A
-...            LOCATOR_ITEMS_PAGE_INVENTORY=//a[@id='item_$$_title_link']      #locator dos itens na pagina inventory    
+...            LOCATOR_ITEMS_PAGE_INVENTORY=//a[@id='item_$$_title_link']      #locator dos itens na pagina inventory   
+...            BTN_BACK_TO_PRODUCTS=//button[contains(@id,'back-to-products')]       #locator do botão back to products
 
 @{NUMEROS_ITEMS_INVENTORY}    0    1    2    3    4    5       #Total de produtos contidos na pagina inventory  
  

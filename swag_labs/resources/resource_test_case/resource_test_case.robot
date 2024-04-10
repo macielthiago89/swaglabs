@@ -1,6 +1,8 @@
 *** Settings ***
 Library    SeleniumLibrary
 Library    String
+Library    Collections
+
 
 Resource    ../../../swag_labs/main/main.robot
 
@@ -48,7 +50,27 @@ Clique no produto "${TITLE_PRODUCT}"
 Verificar o acesso a tela de informações do produto "${TITLE_PRODUCT}"
     ${VERIFY_TITLE_PRODUCT}    Replace String    ${VARIABLES_TEST_CASE.TITLE_INFO_PRODUCT}    $$     ${TITLE_PRODUCT}
     Wait Until Element Is Visible    ${VERIFY_TITLE_PRODUCT}     timeout=10s
-
+Clique no filtro "A to Z"
+    Click Element    ${VARIABLES_TEST_CASE.ORDER_A_TO_Z}
+Clique no filtro "Z to A"
+    Click Element    ${VARIABLES_TEST_CASE.ORDER_Z_TO_A}
+Pegar todos os itens da pagina e adicionar em uma lista
+    @{ITEMS_LIST}    Create List
+    FOR    ${LIST_NUMEROS}    IN     @{NUMEROS_ITEMS_INVENTORY} 
+        ${VERIFY_TITLE_PRODUCT}    Replace String    ${VARIABLES_TEST_CASE.LOCATOR_ITEMS_PAGE_INVENTORY}    $$     ${LIST_NUMEROS}
+        ${LOCATOR_ITEMS}    Set Variable    ${VERIFY_TITLE_PRODUCT} 
+        ${ITEM_TEXT}    Get Text    ${LOCATOR_ITEMS}
+        Append To List    ${ITEMS_LIST}    ${ITEM_TEXT}
+    END
+    Log List    ${ITEMS_LIST}
+    Set Global Variable    ${ITEMS_LIST}
+Ordenar a lista alfabeticamente A to Z
+    Sort List    ${ITEMS_LIST}
+    Log List    ${ITEMS_LIST}
+Ordenar a lista alfabeticamente Z to A
+    Sort List    ${ITEMS_LIST}
+    Reverse List    ${ITEMS_LIST}
+    Log List    ${ITEMS_LIST}
     
    
         

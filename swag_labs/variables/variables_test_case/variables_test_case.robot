@@ -12,3 +12,9 @@
 ...            BTN_REMOVE_SAUCE_LABS_BACKPACK=//button[contains(@id,'remove-sauce-labs-backpack')]
 ...            TITLE_PRODUCT=//div[@class='inventory_item_name '][contains(.,'$$')]
 ...            TITLE_INFO_PRODUCT=//div[@class='inventory_details_name large_size'][contains(.,'$$')]
+...            ORDER_A_TO_Z=//*[@id="header_container"]/div[2]/div/span/select/option[1]
+...            ORDER_Z_TO_A=//*[@id="header_container"]/div[2]/div/span/select/option[2]
+...            LOCATOR_ITEMS_PAGE_INVENTORY=//a[@id='item_$$_title_link']      
+
+@{NUMEROS_ITEMS_INVENTORY}    0    1    2    3    4    5    
+ 

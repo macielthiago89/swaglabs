@@ -580,19 +580,14 @@ git push -u origin main
 - ✅ CT0004 - Acessar a tela "About".
 - ✅ CT0005 - Realizar o logout.
 - ✅ CT0006 - Acessar a tela "Reset App State".
-- Clicar no botão "Remove item".
+- ✅ CT0007 - Clicar no botão "Remove item".
 - Funcionalidade de filtro por Nome (A a Z).
 - Funcionalidade de filtro por Nome (Z a A).
 - Funcionalidade de filtro por Preço (Baixo para Alto).
 - Funcionalidade de filtro por Preço (Alto para Baixo).
-- Clicar no botão "Add to Cart".
-- Acessar as informações de um produto.
-
-## Tela de um Item do Inventário
-
-- Clicar no botão "Add to Cart".
+- ✅ CT0008 - Clicar no botão "Add to Cart".
+- ✅ CT0009 - Acessar as informações de um produto.
 - Clicar no botão "Back to Products".
-- Clicar no botão "Remove".
 
 ## Tela do Carrinho
 
@@ -785,6 +780,8 @@ Foram criados arquivos separados e colocados nas pastas de suas respectivas fun�
 Vídeo da escrita e execução dos casos de teste: 
 
 [Clique aqui para visualizar o vídeo das escritas e execuções: CT0002 - CT0003 - CT0004 - CT0005 - CT0006](https://drive.google.com/file/d/1IAgKrxLDIHgCH9Wep5nUKGLen536Cx7p/view?usp=sharing)
+
+[Clique aqui para visualizar o vídeo das escritas e execuções: CT0007 - CT0008 - CT0009](https://drive.google.com/file/d/1XvwY9zQ7LBZHIA3Mh6d0gNksTHC5Ymdj/view?usp=sharing)
 
 </details>
 

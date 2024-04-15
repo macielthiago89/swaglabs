@@ -23,7 +23,4 @@ Verificar a funcionalidade de fechar o menu na tela inventory
     Verificar as opções do botão menu "Logout"
     Verificar as opções do botão menu "Reset App State"
     Clique no "X"
-    Verificar o fechamento das opções do menu "All Items"
-    Verificar o fechamento das opções do menu "About"
-    Verificar o fechamento das opções do menu "Logout"
-    Verificar o fechamento das opções do menu "Reset App State"
+    Verificar o fechamento do menu de opções

@@ -5,7 +5,7 @@ Resource    ../../../swag_labs/main/main.robot
 
 *** Keywords ***
 Acessar o site "Swag Labs"    # keyword resonsavel por abrir o browser e acessar o site do swag labs
-    Open Browser    url=${VARIABLES_TEST_SETUP.URL_SWAGLABS}    browser=chrome
+    Open Browser    url=${VARIABLES_TEST_SETUP.URL_SWAGLABS}    browser=headlesschrome
     Maximize Browser Window
     Wait Until Element Is Visible    ${VARIABLES_TEST_SETUP.TITULO_PAGINA_SWAGLABS}    timeout=10s
 Inserir no campo "Username" o username do usuario     # Keyword responsavel por inserir o username do usuario

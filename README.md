@@ -588,7 +588,7 @@ git push -u origin main
 - ❌ Funcionalidade de filtro por Preço (Alto para Baixo) (Não possivel automoção)
 - ✅ CT0008 - Clicar no botão "Add to Cart".
 - ✅ CT0009 - Acessar as informações de um produto.
-- Clicar no botão "Back to Products".
+- ✅ CT0012 - Clicar no botão "Back to Products".
 
 ## Tela do Carrinho
 

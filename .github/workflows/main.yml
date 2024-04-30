@@ -38,7 +38,7 @@ jobs:
       - name: Run Robot Framework tests
       # A opção '-d ./logs' especifica o diretório de saída dos logs
         run: |
-          robot -d ./logs -i CT0001 ./swag_labs/test_case_swaglabs
+          robot -d ./logs -i regression ./swag_labs/test_case_swaglabs
 #------------------------------------------------------------------------------------------------------------------------------------------------------------
       # Passo para usar a ação 'robotframework-reporter-action' para gerar um relatório dos testes
       - name: Robot Reporter

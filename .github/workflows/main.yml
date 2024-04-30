@@ -48,7 +48,7 @@ jobs:
        # Configurações adicionais são passadas, como o token de acesso do GitHub e o caminho do relatório
         with:
           gh_access_token: ${{ secrets.GITHUB_TOKEN }}
-          report_path: logs
+          report_path: logs 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------
       # Passo para fazer upload dos logs gerados como artefato do workflow
       - name: Upload report

@@ -566,7 +566,7 @@ git push -u origin main
 
 ## Tela Principal
 
-- Realizar o login.
+- ✅ Realizar o login.
 - Visualizar a mensagem de campo obrigatório para os campos username e password.
 - Visualizar a mensagem de campo obrigatório para o campo username.
 - Visualizar a mensagem de campo obrigatório para o campo password.

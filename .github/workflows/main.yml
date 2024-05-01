@@ -1,0 +1,62 @@
+# Nome do workflow
+name: test_cicd
+#------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+on:
+  # - push: quando ocorrem commits na branch principal
+  push: 
+    branches: [ main ]
+  # - pull_request: quando é aberta ou atualizada uma solicitação de pull para a branch principal
+  pull_request: 
+    branches: [ main ]
+  workflow_dispatch:
+#------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+jobs:
+  # Define um job chamado "Test_cicd" que será executado em um ambiente Ubuntu mais recente disponível
+  Test_cicd:
+    runs-on: ubuntu-latest
+    steps:
+      # Passo que utiliza a ação 'checkout' para clonar o repositório em execução
+      - uses: actions/checkout@v4.1.3  
+#------------------------------------------------------------------------------------------------------------------------------------------------------------
+      # Passo para instalar a versão 3.12 do Python usando a ação 'setup-python'
+      - name: Install python
+        uses: actions/setup-python@v5.1.0
+        with:
+          python-version: 3.12
+#------------------------------------------------------------------------------------------------------------------------------------------------------------         
+      # Passo para instalar as dependências necessárias para os testes usando pip
+      - name: Install depedencias
+        run: |
+          pip install robotframework
+          pip install robotframework-SeleniumLibrary
+          pip install setuptools
+          pip install robotframework-Faker
+#------------------------------------------------------------------------------------------------------------------------------------------------------------
+      # Passo para executar os testes do Robot Framework, especificamente os casos de teste localizados em './swag_labs/test_case_swaglabs'
+      - name: Run Robot Framework tests
+      # A opção '-d ./logs' especifica o diretório de saída dos logs
+        run: |
+          robot -d ./logs -i regression ./swag_labs/test_case_swaglabs
+#------------------------------------------------------------------------------------------------------------------------------------------------------------
+      # Passo para usar a ação 'robotframework-reporter-action' para gerar um relatório dos testes
+      - name: Robot Reporter
+        uses: joonvena/robotframework-reporter-action@v2.4
+      # A condição 'if: always()' garante que este passo seja sempre executado, independentemente do resultado dos passos anteriores
+        if: always()
+       # Configurações adicionais são passadas, como o token de acesso do GitHub e o caminho do relatório
+        with:
+          gh_access_token: ${{ secrets.GITHUB_TOKEN }}
+          report_path: logs 
+#------------------------------------------------------------------------------------------------------------------------------------------------------------
+      # Passo para fazer upload dos logs gerados como artefato do workflow
+      - name: Upload report
+        uses: actions/upload-artifact@v4.3.2
+      # Isso permite que os logs sejam acessíveis para referência futura
+        with:
+          name: Test report
+          path: logs
+#------------------------------------------------------------------------------------------------------------------------------------------------------------
+                
+
